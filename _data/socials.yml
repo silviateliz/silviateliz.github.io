@@ -4,7 +4,7 @@
 
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
+bluesky_url: https://bsky.app/profile/steliz.bsky.social
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: silvia.teliz@asc.upenn.edu # your email address
@@ -30,7 +30,7 @@ orcid_id: 0000-0002-8958-6372
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: false # comment this line to hide the RSS icon
+# rss_icon: false # comment this line to hide the RSS icon
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -47,6 +47,6 @@ rss_icon: false # comment this line to hide the RSS icon
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  title: Bluesky
-  url: https://bsky.app/profile/steliz.bsky.social
+#custom_social: # can be any name here other than the ones already defined above
+ # title: 
+ # url: 
