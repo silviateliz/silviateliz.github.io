@@ -1,97 +1,313 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+cv:
+  name: "Silvia Téliz"
+  location: "Philadelphia, PA, USA"
+  email: "silvia.teliz@asc.upenn.edu"
+  phone:
+  website: "https://silviateliz.github.io"
+  social_networks:
+    - network: "LinkedIn"
+      username: "silvia-teliz"
+  sections:
+    Summary:
+      - "I am a PhD candidate at the Annenberg School for Communication, University of Pennsylvania. My research explores the visual representation of social identity in Latin American political communication using computational methods."
+    education:
+      - institution: "Annenberg School for Communication, University of Pennsylvania"
+        area: "Communicaiton"
+        degree: "PhD"
+        date:
+        start_date: "2022-08"
+        end_date: "present"
+        location: "Philadelphia, PA, USA"
+        summary:
+        highlights:
+          - "*Certificate in College and University Teaching* awarded in 2025 for my training and experience in higher education teaching  "
+      - institution: "Annenberg School for Communication, University of Pennsylvania"
+        area: "Communicaiton"
+        degree: "Master of Arts"
+        date:
+        start_date: "2022-08"
+        end_date: "2024-05"
+        location: "Philadelphia, PA, USA"
+        summary:
+      - institution: "Universidad Panamericana"
+        area: "Communication"
+        degree: "Bachelor of Arts"
+        date:
+        start_date: "2014-08"
+        end_date: "2018-05"
+        location: "Mexico City, Mexico"
+        summary:
+        highlights: []
+    awards:
+      - name: "Graduate Scholarship in Sciences and Humanities"
+        date: "2025"
+        start_date:
+        end_date:
+        location:
+        summary: "Awarded by the Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)"
+      - name: "Fulbright García-Robles Scholarship"
+        date: "2022"
+        start_date:
+        end_date:
+        location:
+        summary: "Awarded by the US-Mexico Foundation (COMEXUS)"
+    Research positions:
+      - name: "Politics, Identities, and Communication Lab"
+        date:
+        start_date: "2025-05"
+        end_date: "present"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Reserach fellow"
+        highlights:
+          - "Contributed to collaborative research projects through computational data analysis, including the collection, cleaning, and processing of large datasets."
+          - " Provided intellectual input and drafted significant portions of resulting peer-reviewed manuscripts."
+      - name: "Center for Advanced Research in Global Communication"
+        date:
+        start_date: "2022-08"
+        end_date: "2023-08"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Research fellow"
+        highlights:
+          - "Worked under Dr. Juan Llamas Rodriguez’s supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation)."
+          - "Co-wrote a book chapter on colorism and cultural activism in Mexico for Planet Digital (NYU Press)."
+    Teaching positions:
+      - name: "Children and Media"
+        date:
+        start_date: "2024-08"
+        end_date: "2024-12"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Teaching fellow"
+        highlights:
+          - "Provided individual assistance and clarification during dedicated office hours."
+          - "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records."
+          - "Graded and provided dedicated feedback for assignments and final papers."
+          - "Assisted in designing and grading exams."
+          - "Taught lecture on racial representations in children's media."
+      - name: "Quantitative Methods for Communication Research"
+        date:
+        start_date: "2020"
+        end_date: "2022"
+        location: "Universidad Panamericana, Mexico City"
+        summary: "Instructor"
+        highlights:
+          - "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major."
+          - "Designed all educational materials, including original slides, assignments, tests, and lab activities."
+          - |-
+            Introduced the programming language R into the curriculum as the
+            main tool for learning Quantitative Methods.
+          - "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
+    Presentations:
+      - title: "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign "
+        authors:
+          - "Silvia Téliz"
+          - "Gayoung Jeon"
+        doi:
+        url:
+        journal: "PolNet-PACSS conference - Boston, MA, USA - poster presentation"
+        date: "August 2025"
+      - title: "A Picture is Worth a Thousand Fictions: Visual Political Communication in the Age of Generative AI"
+        authors:
+          - "Silvia Téliz"
+        doi:
+        url:
+        journal: "CIND Workshop 2025 - Philadelphia, PA, USA - invited talk"
+        date: "April 2025"
+      - title: "Hues of Victory: Using Computer Vision to Examine Skin Color's Influence on Electoral Success"
+        authors:
+          - "Silvia Téliz"
+        doi:
+        url:
+        journal: "ICA Preconference, “A Computational Turn in Journalism: Opportunities and Challenges in a Cross-Disciplinary Field” - Singapore - paper presentation"
+        date: "June 2024"
+      - title: "Status, Color and Race: Dissecting the content of Latin American class stereotypes"
+        authors:
+          - "Valentina Proust Iligaray"
+          - "Silvia Téliz"
+        doi:
+        url:
+        journal: "ICA Preconference: \"Media and Communication in Global Latinidades\" - Online - paper presentation"
+        date: "May 2023"
+    publications:
+      - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico (In press)"
+        authors:
+          - "Juan Llamas-Rodrguez"
+          - "Silvia Téliz"
+        doi:
+        url:
+        journal: "Planet Digital (NYU Press)"
+        date: "2026"
+      - title: "Agresiones a periodistas y cobertura mediática de la corrupción"
+        authors:
+          - "Georgina Flores-Ivich"
+          - "Silvia Téliz Martínez"
+        doi: "https://doi.org/10.2307/j.ctv1jhvn9w"
+        url:
+        journal: "Crisis de estatalidad y violaciones a derechos humanos"
+        date: "2021"
+    Scholarly memberships and service:
+      - name: "Center for Information Networks and Democracy"
+        date:
+        start_date: "2023"
+        end_date: "present"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Doctoral fellow and meeting administrator"
+      - name: "Center for Advanced Research in Global Communication"
+        date:
+        start_date: "2022"
+        end_date: "present"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Doctoral fellow"
+      - name: "Graduate Student Council"
+        date:
+        start_date: "2023"
+        end_date: "2024"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Member and information manager"
+        highlights: []
+    languages:
+      - number: "Spanish: native speaker"
+      - number: "English: advanced (C2)"
+      - number: "French: intermediate (B2)"
+      - number: "German: intermideate (B1)"
+design:
+  theme: "sb2nov"
+  page:
+    size: "us-letter"
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: "rgb(0, 0, 0)"
+    name: "rgb(0, 0, 0)"
+    connections: "rgb(0, 0, 0)"
+    section_titles: "rgb(0, 0, 0)"
+    links: "rgb(0, 0, 0)"
+    last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
+  text:
+    font_family: "XCharter"
+    font_size: "10pt"
+    leading: "0.6em"
+    alignment: "justified"
+    date_and_location_column_alignment: "right"
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: "XCharter"
+    name_font_size: "25pt"
+    name_bold: false
+    small_caps_for_name: false
+    photo_width: "3.5cm"
+    vertical_space_between_name_and_connections: "0.7cm"
+    vertical_space_between_connections_and_first_section: "0.7cm"
+    horizontal_space_between_connections: "0.5cm"
+    connections_font_family: "XCharter"
+    separator_between_connections: "|"
+    use_icons_for_connections: false
+    use_urls_as_placeholders_for_connections: true
+    make_connections_links: true
+    alignment: "center"
+  section_titles:
+    type: "with-full-line"
+    font_family: "XCharter"
+    font_size: "1.2em"
+    bold: true
+    small_caps: false
+    line_thickness: "0.5pt"
+    vertical_space_above: "0.55cm"
+    vertical_space_below: "0.3cm"
+  entries:
+    date_and_location_width: "4.15cm"
+    left_and_right_margin: "0cm"
+    horizontal_space_between_columns: "0.1cm"
+    vertical_space_between_entries: "0.4cm"
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: "•"
+    nested_bullet: "-"
+    top_margin: "0.25cm"
+    left_margin: "0cm"
+    vertical_space_between_highlights: "0.19cm"
+    horizontal_space_between_bullet_and_highlight: "0.3em"
+    summary_left_margin: "0cm"
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
+      degree_column_template:
+      degree_column_width: "1cm"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: "DATE"
+locale:
+  language: "en"
+  phone_number_format: "national"
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "present"
+  to: "–"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "June"
+    - "July"
+    - "Aug"
+    - "Sept"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"
+rendercv_settings:
+  date: "2025-09-30"
