@@ -391,16 +391,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-was-so-happy-to-participate-at-this-year-s-polnet-pacss-conference-in-boston-ma-gayoung-jeon-and-i-had-the-opportunity-to-present-a-poster-on-our-project-picturing-immigration-a-multimodal-computational-analysis-of-the-2024-u-s-presidential-campaign",
+          title: 'I was so happy to participate at this year’s PolNet-PACSS conference in Boston,...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-thrilled-to-share-that-i-have-been-selected-as-a-recipient-of-the-graduate-scholarship-for-sciences-and-humanities-i-am-deeply-grateful-to-the-ministry-of-science-humanities-technology-and-innovation-of-mexico-secihti-for-their-support-of-my-work-on-the-visual-representation-of-social-identity-in-mexican-political-communication-this-funding-will-be-instrumental-for-the-completion-of-my-phd-journey",
+          title: 'Thrilled to share that I have been selected as a recipient of the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
