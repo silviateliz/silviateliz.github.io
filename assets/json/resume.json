@@ -22,59 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Politics, Identities, and Communication Lab - Annenberg School for Communication, University of Pennsylvania",
-      "position": "Research fellow",
-      "url": "",
-      "startDate": "2025-05-01",
-      "endDate": "present",
-      "summary": "",
-      "highlights": [
-        "Contributed to collaborative research projects through computational data analysis, including the collection, cleaning, and processing of large datasets.",
-        "Provided intellectual input and drafted significant portions of resulting peer-reviewed manuscripts."
-      ]
-    },
-    {
-      "name": "Center for Advanced Research in Global Communication - Annenberg School for Communication, University of Pennsylvania",
-      "position": "Research fellow",
-      "url": "",
-      "startDate": "2022-08-01",
-      "endDate": "2023-08-01",
-      "summary": "Worked under Dr. Juan Llamas Rodriguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation).",
-      "highlights": [
-        "Co-wrote a book chapter on colorism and cultural activism in Mexico for Planet Digital (NYU Press)."
-      ]
-    },
-    {
-      "name": "Children and Media - Annenberg School for Communication, University of Pennsylvania",
-      "position": "Teaching fellow",
-      "url": "",
-      "startDate": "2024-08-01",
-      "endDate": "2024-12-01",
-      "summary": "",
-      "highlights": [
-        "Provided individual assistance and clarification during dedicated office hours.",
-        "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records.",
-        "Graded and provided dedicated feedback for assignments and final papers.",
-        "Assisted in designing and grading exams.",
-        "Taught lecture on racial representations in children's media."
-      ]
-    },
-    {
-      "name": "Quantitative Methods for Communication Research - Universidad Panamericana, Mexico City",
-      "position": "Instructor",
-      "url": "",
-      "startDate": "2020-01-01",
-      "endDate": "2022-12-31",
-      "summary": "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major.",
-      "highlights": [
-        "Designed all educational materials, including original slides, assignments, tests, and lab activities.",
-        "Introduced the programming language R into the curriculum as the main tool for learning Quantitative Methods.",
-        "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
-      ]
-    }
-  ],
   "volunteer": [],
   "education": [
     {
@@ -136,6 +83,59 @@
       "icon": ""
     }
   ],
+  "work": [
+    {
+      "name": "Politics, Identities, and Communication Lab - Annenberg School for Communication, University of Pennsylvania",
+      "position": "Research fellow",
+      "url": "",
+      "startDate": "2025-05-01",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Contributed to collaborative research projects through computational data analysis, including the collection, cleaning, and processing of large datasets.",
+        "Provided intellectual input and drafted significant portions of resulting peer-reviewed manuscripts."
+      ]
+    },
+    {
+      "name": "Center for Advanced Research in Global Communication - Annenberg School for Communication, University of Pennsylvania",
+      "position": "Research fellow",
+      "url": "",
+      "startDate": "2022-08-01",
+      "endDate": "2023-08-01",
+      "summary": "Worked under Dr. Juan Llamas Rodriguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation).",
+      "highlights": [
+        "Co-wrote a book chapter on colorism and cultural activism in Mexico for Planet Digital (NYU Press)."
+      ]
+    },
+    {
+      "name": "Children and Media - Annenberg School for Communication, University of Pennsylvania",
+      "position": "Teaching fellow",
+      "url": "",
+      "startDate": "2024-08-01",
+      "endDate": "2024-12-01",
+      "summary": "",
+      "highlights": [
+        "Provided individual assistance and clarification during dedicated office hours.",
+        "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records.",
+        "Graded and provided dedicated feedback for assignments and final papers.",
+        "Assisted in designing and grading exams.",
+        "Taught lecture on racial representations in children's media."
+      ]
+    },
+    {
+      "name": "Quantitative Methods for Communication Research - Universidad Panamericana, Mexico City",
+      "position": "Instructor",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major.",
+      "highlights": [
+        "Designed all educational materials, including original slides, assignments, tests, and lab activities.",
+        "Introduced the programming language R into the curriculum as the main tool for learning Quantitative Methods.",
+        "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
+      ]
+    }
+  ],
   "publications": [
     {
       "name": "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico (In press)",
@@ -149,32 +149,10 @@
       "publisher": "(Crisis de estatalidad y violaciones a derechos humanos)",
       "releaseDate": "2021-01-01",
       "url": "https://doi.org/10.2307/j.ctv1jhvn9w",
-      "summary": "Co-authored with Georgina Flores-Ivich Martínez"
+      "summary": "Co-authored with Georgina Flores-Ivich"
     }
   ],
   "skills": [],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "advanced (C2)",
-      "icon": ""
-    },
-    {
-      "language": "French",
-      "fluency": "intermediate (B2)",
-      "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "intermideate (B1)",
-      "icon": ""
-    }
-  ],
   "interests": [],
   "references": [],
   "projects": [
@@ -213,6 +191,28 @@
       "startDate": "2023-05-01",
       "endDate": "2023-05-31",
       "url": ""
+    }
+  ],
+    "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "advanced (C2)",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "intermediate (B2)",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "intermideate (B1)",
+      "icon": ""
     }
   ]
 }
