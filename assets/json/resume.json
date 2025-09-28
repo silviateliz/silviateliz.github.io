@@ -31,7 +31,7 @@
       "area": "Communication",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "endDate": "present",
+      "endDate": "2027-05-01",
       "score": "",
       "courses": []
     },
@@ -148,7 +148,7 @@
     {
       "name": "Agresiones a periodistas y cobertura mediática de la corrupción",
       "authors": "Georgina Flores-Ivich and Silvia Téliz",
-      "publisher": "(Crisis de estatalidad y violaciones a derechos humanos)",
+      "publisher": "Crisis de estatalidad y violaciones a derechos humanos (FLACSO México)",
       "releaseDate": "2021-01-01",
       "url": "https://doi.org/10.2307/j.ctv1jhvn9w",
       "summary": ""
@@ -163,7 +163,8 @@
       "authors": "Silvia Téliz and Gayoung Jeon",
       "type": "Poster presentation",
       "venue":  "PolNet-PACSS conference - Boston, MA, USA",
-      "releaseDate": "2025-08-01",
+      "summary": "",
+      "releaseDate": "2025-08",
       "url": ""
     },
     {
@@ -171,15 +172,17 @@
       "authors": "Silvia Téliz",
       "type": "Invited talk",
       "venue": "CIND Workshop 2025 - Philadelphia, PA, USA",
-      "releaseDate": "2025-04-01",
+      "summary": "",
+      "releaseDate": "2025-04",
       "url": ""
     },
     {
       "name": "Hues of Victory: Using Computer Vision to Examine Skin Color's Influence on Electoral Success",
       "authors": "Silvia Téliz",
       "type": "Paper presentation",
+      "summary": "",
       "venue": "ICA Preconference, \"A Computational Turn in Journalism: Opportunities and Challenges in a Cross-Disciplinary Field\" - Singapore",
-      "releaseDate": "2024-06-01",
+      "releaseDate": "2024-06",
       "url": ""
     },
     {
@@ -187,7 +190,8 @@
       "authors": "Valentina Proust Iligaray and Silvia Téliz",
       "type": "Paper presentation",
       "venue": "ICA Preconference: \"Media and Communication in Global Latinidades\" - Online",
-      "releaseDate": "2023-05-01",
+      "summary": "",
+      "releaseDate": "2023-05",
       "url": ""
     }
   ],
