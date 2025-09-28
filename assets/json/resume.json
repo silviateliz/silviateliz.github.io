@@ -139,57 +139,55 @@
   "publications": [
     {
       "name": "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico (In press)",
+      "authors": "Juan Llamas-Rodríguez and Silvia Téliz",
       "publisher": "Planet Digital (NYU Press)",
       "releaseDate": "2026-01-01",
       "url": "",
-      "summary": "Co-authored with Juan Llamas-Rodrguez"
+      "summary": ""
     },
     {
       "name": "Agresiones a periodistas y cobertura mediática de la corrupción",
+      "authors": "Georgina Flores-Ivich and Silvia Téliz",
       "publisher": "(Crisis de estatalidad y violaciones a derechos humanos)",
       "releaseDate": "2021-01-01",
       "url": "https://doi.org/10.2307/j.ctv1jhvn9w",
-      "summary": "Co-authored with Georgina Flores-Ivich"
+      "summary": ""
     }
   ],
   "skills": [],
   "interests": [],
   "references": [],
-  "projects": [
+  "presentations": [
     {
       "name": "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign",
-      "summary": "Poster presentation at PolNet-PACSS conference - Boston, MA, USA",
-      "highlights": [
-        "Co-presented with Gayoung Jeon"
-      ],
-      "startDate": "2025-08-01",
-      "endDate": "2025-08-31",
+      "authors": "Silvia Téliz and Gayoung Jeon",
+      "type": "Poster presentation",
+      "venue":  "PolNet-PACSS conference - Boston, MA, USA",
+      "releaseDate": "2025-08-01",
       "url": ""
     },
     {
       "name": "A Picture is Worth a Thousand Fictions: Visual Political Communication in the Age of Generative AI",
-      "summary": "Invited talk at CIND Workshop 2025 - Philadelphia, PA, USA",
-      "highlights": [],
-      "startDate": "2025-04-01",
-      "endDate": "2025-04-30",
+      "authors": "Silvia Téliz",
+      "type": "Invited talk",
+      "venue": "CIND Workshop 2025 - Philadelphia, PA, USA",
+      "releaseDate": "2025-04-01",
       "url": ""
     },
     {
       "name": "Hues of Victory: Using Computer Vision to Examine Skin Color's Influence on Electoral Success",
-      "summary": "Paper presentation at ICA Preconference, \"A Computational Turn in Journalism: Opportunities and Challenges in a Cross-Disciplinary Field\" - Singapore",
-      "highlights": [],
-      "startDate": "2024-06-01",
-      "endDate": "2024-06-30",
+      "authors": "Silvia Téliz",
+      "type": "Paper presentation",
+      "venue": "ICA Preconference, \"A Computational Turn in Journalism: Opportunities and Challenges in a Cross-Disciplinary Field\" - Singapore",
+      "releaseDate": "2024-06-01",
       "url": ""
     },
     {
       "name": "Status, Color and Race: Dissecting the content of Latin American class stereotypes",
-      "summary": "Paper presentation at ICA Preconference: \"Media and Communication in Global Latinidades\" - Online",
-      "highlights": [
-        "Co-presented with Valentina Proust Iligaray"
-      ],
-      "startDate": "2023-05-01",
-      "endDate": "2023-05-31",
+      "authors": "Valentina Proust Iligaray and Silvia Téliz",
+      "type": "Paper presentation",
+      "venue": "ICA Preconference: \"Media and Communication in Global Latinidades\" - Online",
+      "releaseDate": "2023-05-01",
       "url": ""
     }
   ],

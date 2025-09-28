@@ -1,6 +1,6 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
-  {% for content in publications %}
+  {% assign presentations = data[1] | sort: 'releaseDate' | reverse %}
+  {% for content in presentations %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
@@ -26,7 +26,10 @@
           {% if content.authors %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.authors }}</h6>
           {% endif %}
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.publisher }}</h6>
+          {% if content.type %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.9rem; font-weight: 600; color: #495057;">{{ content.type }}</h6>
+          {% endif %}
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.venue }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
         </div>
       </div>
