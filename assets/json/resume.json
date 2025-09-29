@@ -31,7 +31,7 @@
       "area": "Communication",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "endDate": "2027-05-01",
+      "endDate": "present",
       "score": "",
       "courses": []
     },
@@ -61,14 +61,14 @@
   "awards": [
     {
       "title": "Graduate Scholarship in Sciences and Humanities",
-      "date": "2025-01-01",
+      "date": "2025",
       "awarder": "Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)",
       "url": "",
       "summary": ""
     },
     {
       "title": "Fulbright García-Robles Scholarship",
-      "date": "2022-01-01",
+      "date": "2022",
       "awarder": "US-Mexico Foundation (COMEXUS)",
       "url": "",
       "summary": ""
@@ -77,8 +77,8 @@
   "certificates": [
     {
       "name": "Certificate in College and University Teaching",
-      "date": "2025-01-01",
-      "issuer": "Annenberg School for Communication, University of Pennsylvania (for training and experience in higher education teaching)",
+      "date": "2024",
+      "issuer": "Annenberg School for Communication, University of Pennsylvania",
       "url": "",
       "icon": ""
     }
@@ -88,7 +88,7 @@
       "name": "Politics, Identities, and Communication Lab - Annenberg School for Communication, University of Pennsylvania",
       "position": "Research fellow",
       "url": "",
-      "startDate": "2025-05-01",
+      "startDate": "2025-05",
       "endDate": "present",
       "summary": "",
       "highlights": [
@@ -100,10 +100,11 @@
       "name": "Center for Advanced Research in Global Communication - Annenberg School for Communication, University of Pennsylvania",
       "position": "Research fellow",
       "url": "",
-      "startDate": "2022-08-01",
-      "endDate": "2023-08-01",
-      "summary": "Worked under Dr. Juan Llamas Rodriguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation).",
+      "startDate": "2022-08",
+      "endDate": "2023-08",
+      "summary": "",
       "highlights": [
+        "Worked under Dr. Juan Llamas Rodriguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation).",
         "Co-wrote a book chapter on colorism and cultural activism in Mexico for Planet Digital (NYU Press)."
       ]
     },
@@ -111,8 +112,8 @@
       "name": "Children and Media - Annenberg School for Communication, University of Pennsylvania",
       "position": "Teaching fellow",
       "url": "",
-      "startDate": "2024-08-01",
-      "endDate": "2024-12-01",
+      "startDate": "2024-08",
+      "endDate": "2024-12",
       "summary": "",
       "highlights": [
         "Provided individual assistance and clarification during dedicated office hours.",
@@ -126,10 +127,11 @@
       "name": "Quantitative Methods for Communication Research - Universidad Panamericana, Mexico City",
       "position": "Instructor",
       "url": "",
-      "startDate": "2020-01-01",
-      "endDate": "2022-12-31",
-      "summary": "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major.",
+      "startDate": "2020-01",
+      "endDate": "2022-12",
+      "summary": "",
       "highlights": [
+        "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major.",
         "Designed all educational materials, including original slides, assignments, tests, and lab activities.",
         "Introduced the programming language R into the curriculum as the main tool for learning Quantitative Methods.",
         "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
@@ -141,7 +143,7 @@
       "name": "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico (In press)",
       "authors": "Juan Llamas-Rodríguez and Silvia Téliz",
       "publisher": "Planet Digital (NYU Press)",
-      "releaseDate": "2026-01-01",
+      "releaseDate": "2026",
       "url": "",
       "summary": ""
     },
@@ -149,7 +151,7 @@
       "name": "Agresiones a periodistas y cobertura mediática de la corrupción",
       "authors": "Georgina Flores-Ivich and Silvia Téliz",
       "publisher": "Crisis de estatalidad y violaciones a derechos humanos (FLACSO México)",
-      "releaseDate": "2021-01-01",
+      "releaseDate": "2021",
       "url": "https://doi.org/10.2307/j.ctv1jhvn9w",
       "summary": ""
     }
