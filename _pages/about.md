@@ -28,12 +28,6 @@ I use computational social science methods to study the visual representation of
  
 I was born and raised in Mexico City, where I obtained a B.A. degree in Communication from Universidad Panamericana. After graduating college in 2018, I collaborated in numerous research consulting projects, mainly on gender and transparency issues. I worked in evaluating public policy programs for Mexican institutions such as the National Institute for Information Access and the National Judiciary. In 2021, I became a Fulbright-García Robles grantee.
 
-## Latest from Bluesky
+## news
 
-<div class="bluesky-embed">
-  <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:steliz.bsky.social/app.bsky.feed.post/latest" data-bluesky-cid="your-content-id">
-    <p lang="en">Loading latest Bluesky posts...</p>
-    &mdash; Your Name (<a href="https://bsky.app/profile/your-handle.bsky.social">@your-handle.bsky.social</a>)
-  </blockquote>
-  <script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-</div>
+<link rel="stylesheet" href="https://embedbsky.com/embedbsky.com-master-min.css" /><div id="embedbsky-com-timeline-embed" class="darkmode"></div><script>let containerWidth=200,containerHeight=600;const getHtml=async t=>{const e=await fetch(t);return 200!==e.status?'<p><strong>No feed data could be located</p></strong>':e.text()};document.addEventListener('DOMContentLoaded',(async()=>{const t=(new Date).toISOString(),e=document.getElementById('embedbsky-com-timeline-embed');e.style.width=`${containerWidth}px`,e.style.height=`${containerHeight}px`;const n=await getHtml(`https://embedbsky.com/feeds/8de1f3222603bc1ac690525c2344318eed889a0c1f1f4e884ba40a60f6ef2e29.html?v=${t}`);e.innerHTML=n}));</script>
