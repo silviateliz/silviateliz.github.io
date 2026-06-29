@@ -16,16 +16,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-was-so-happy-to-participate-at-this-year-s-polnet-pacss-conference-in-boston-ma-gayoung-jeon-and-i-had-the-opportunity-to-present-a-poster-on-our-project-picturing-immigration-a-multimodal-computational-analysis-of-the-2024-u-s-presidential-campaign",
+        },{id: "news-i-was-so-happy-to-participate-at-this-year-s-polnet-pacss-conference-in-boston-ma-gayoung-jeon-and-i-had-the-opportunity-to-present-a-poster-on-our-project-picturing-immigration-a-multimodal-computational-analysis-of-the-2024-u-s-presidential-campaign",
           title: 'I was so happy to participate at this year’s PolNet-PACSS conference in Boston,...',
           description: "",
           section: "News",},{id: "news-thrilled-to-share-that-i-have-been-selected-as-a-recipient-of-the-graduate-scholarship-for-sciences-and-humanities-i-am-deeply-grateful-to-the-ministry-of-science-humanities-technology-and-innovation-of-mexico-secihti-for-their-support-of-my-work-on-the-visual-representation-of-social-identity-in-mexican-political-communication-this-funding-will-be-instrumental-for-the-completion-of-my-phd-journey",
           title: 'Thrilled to share that I have been selected as a recipient of the...',
+          description: "",
+          section: "News",},{id: "news-from-june-15-to-june-26-i-had-the-joy-of-participating-at-the-summer-institute-in-computational-social-science-sicss-at-the-university-of-pennsylvania-it-was-an-incredibily-enriching-experience-all-thanks-to-the-amazing-organizers-josh-nguyen-samar-haider-upasana-dutta-and-prof-dan-hopkins",
+          title: 'From June 15 to June 26 I had the joy of participating at...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
