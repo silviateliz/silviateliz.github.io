@@ -36,7 +36,7 @@ cv:
         location: "Mexico City, Mexico"
         summary:
         highlights: []
-    Technical skills and Methodologies:
+    Technical Skills and Methodologies:
       - number: "Spanish: native speaker"
       - number: "English: advanced (C2)"
       - number: "French: intermediate (B2)"
@@ -119,6 +119,18 @@ cv:
           - "Developed an academic program and created didactic content for the National School for Women of the Institutional Revolutionary Party, empowering female members through education on gender perspective, political representation, and communication strategies."
           - "Created educational content for the Migrant-e project (led by the Universidad Nacional Autónoma de México), teaching undocumented immigrants in the United States about their rights and safety tools."
     publications:
+      - title: "WhichTok? Comparing Three TikTok Data Acquisition Tools"
+        authors:
+          - "Gayoung Jeon"
+          - "Cameron Moy"
+          - "Silvia Téliz"
+          - "Cristina Monzer"
+          - "Nicolette Alayon"
+          - "Deen Freelon"
+        doi:
+        url: "https://arxiv.org/abs/2608.09917"
+        journal: "arXiv preprint"
+        date: "2026-08"
       - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico"
         authors:
           - "Juan Llamas-Rodríguez"
@@ -136,6 +148,14 @@ cv:
         journal: "Crisis de estatalidad y violaciones a derechos humanos, FLACSO México"
         date: "2021"
     Presentations:
+      - title: "Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group Specification"
+        authors:
+          - "Vishwanath Emani Venkata"
+          - "Silvia Téliz"
+        doi:
+        url:
+        journal: "IC2S2 conference - Burlington, VT, USA - conference presentation"
+        date: "July 2026"
       - title: "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign"
         authors:
           - "Silvia Téliz"
