@@ -22,7 +22,6 @@
       }
     ]
   },
-  "volunteer": [],
   "education": [
     {
       "institution": "Annenberg School for Communication, University of Pennsylvania",
@@ -58,36 +57,15 @@
       "courses": []
     }
   ],
-  "awards": [
+  "skills": [
     {
-      "title": "Graduate Scholarship in Sciences and Humanities",
-      "date": "2025",
-      "awarder": "Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "Fulbright García-Robles Scholarship",
-      "date": "2022",
-      "awarder": "US-Mexico Foundation (COMEXUS)",
-      "url": "",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Summer Institute in Computational Social Science",
-      "date": "2026-06",
-      "issuer": "University of Pennsylvania",
-      "url": "",
-      "icon": ""
-    },
-    {
-      "name": "Certificate in College and University Teaching",
-      "date": "2025",
-      "issuer": "University of Pennsylvania",
-      "url": "",
-      "icon": ""
+      "name": "Languages",
+      "keywords": [
+        "Spanish: native speaker",
+        "English: advanced (C2)",
+        "French: intermediate (B2)",
+        "German: intermediate (B1)"
+      ]
     }
   ],
   "work": [
@@ -205,9 +183,6 @@
       "summary": ""
     }
   ],
-  "skills": [],
-  "interests": [],
-  "references": [],
   "presentations": [
     {
       "name": "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign",
@@ -246,26 +221,40 @@
       "url": ""
     }
   ],
-  "languages": [
+  "projects": [],
+  "volunteer": [],
+  "awards": [
     {
-      "language": "Spanish",
-      "fluency": "native speaker",
+      "title": "Graduate Scholarship in Sciences and Humanities",
+      "date": "2025",
+      "awarder": "Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Fulbright García-Robles Scholarship",
+      "date": "2022",
+      "awarder": "US-Mexico Foundation (COMEXUS)",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Summer Institute in Computational Social Science",
+      "date": "2026-06",
+      "issuer": "University of Pennsylvania",
+      "url": "",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "advanced (C2)",
-      "icon": ""
-    },
-    {
-      "language": "French",
-      "fluency": "intermediate (B2)",
-      "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "intermediate (B1)",
+      "name": "Certificate in College and University Teaching",
+      "date": "2025",
+      "issuer": "University of Pennsylvania",
+      "url": "",
       "icon": ""
     }
-  ]
+  ],
+  "interests": [],
+  "references": []
 }
