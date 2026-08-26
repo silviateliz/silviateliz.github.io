@@ -9,7 +9,7 @@ cv:
       username: "silvia-teliz"
   sections:
     Summary:
-      - "I am a PhD candidate at the Annenberg School for Communication, University of Pennsylvania. My research explores the visual representation of social identity in Latin American political communication using computer vision techniques. My dissertation project leverages Urban Visual Data to study how out-of-home political advertisements influence electoral outcomes in Mexican elections."
+      - "I am a PhD candidate at the Annenberg School for Communication, University of Pennsylvania. I use computational social science methods to explore the visual representation of social identity in political communication. My dissertation project leverages Urban Visual Data to study how out-of-home political advertisements influence electoral outcomes in Mexican elections."
     education:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
