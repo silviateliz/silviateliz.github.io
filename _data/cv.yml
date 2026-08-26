@@ -14,55 +14,34 @@ cv:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "PhD"
-        date:
-        start_date: "2022-08"
-        end_date: "present"
+        date: "present"
+        start_date:
+        end_date:
         location: "Philadelphia, PA, USA"
         summary:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "Master of Arts"
-        date:
-        start_date: "2022-08"
-        end_date: "2024-05"
+        date: "2024-05"
+        start_date:
+        end_date:
         location: "Philadelphia, PA, USA"
         summary:
       - institution: "Universidad Panamericana"
         area: "Communication"
         degree: "Bachelor of Arts"
-        date:
-        start_date: "2014-08"
-        end_date: "2018-05"
+        date: "2018-05"
+        start_date:
+        end_date:
         location: "Mexico City, Mexico"
         summary:
         highlights: []
-    awards:
-      - name: "Graduate Scholarship in Sciences and Humanities"
-        date: "2025"
-        start_date:
-        end_date:
-        location:
-        summary: "Awarded by the Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)"
-      - name: "Fulbright García-Robles Scholarship"
-        date: "2022"
-        start_date:
-        end_date:
-        location:
-        summary: "Awarded by the US-Mexico Foundation (COMEXUS)"
-    Certificates:
-      - name: "Summer Institute in Computational Social Science"
-        date: "2026-06"
-        start_date:
-        end_date:
-        location:
-        summary: "Awarded by the University of Pennsylvania"
-      - name: "Certificate in College and University Teaching"
-        date: "2025"
-        start_date:
-        end_date:
-        location:
-        summary: "Awarded by the University of Pennsylvania"
-    Research positions:
+    Technical skills and Methodologies:
+      - number: "Spanish: native speaker"
+      - number: "English: advanced (C2)"
+      - number: "French: intermediate (B2)"
+      - number: "German: intermediate (B1)"
+    Relevant Experience:
       - name: "Politics, Identities, and Communication Lab"
         date:
         start_date: "2025-05"
@@ -73,38 +52,6 @@ cv:
           - "Co-authored 'WhichTok? Comparing Three TikTok Data Acquisition Tools' (Jeon et al., 2025, under review), contributing to theoretical conceptualization, writing, reviewing, and editing."
           - "Ongoing project: 'Aligned identities, curated politics: Mapping political expression on TikTok across the ideological spectrum', contributing to theoretical conceptualization, formulation of overarching research goals, methodology design, computational visual analysis of over 5000 TikTok videos, writing, reviewing, and editing."
           - "Ongoing project: 'What do engagement metrics measure? Strategic optimization and content characteristics in AI-related content on TikTok', contributing to theoretical conceptualization, formulation of overarching research goals, methodology design, computational visual analysis of over 2000 TikTok videos, writing, reviewing, and editing."
-      - name: "Center for Advanced Research in Global Communication"
-        date:
-        start_date: "2022-08"
-        end_date: "2023-08"
-        location: "Annenberg School for Communication, University of Pennsylvania"
-        summary: "Research Fellow"
-        highlights:
-          - "Worked under Dr. Juan Llamas Rodríguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation)."
-          - "Co-authored 'Poder Prieto: Media, Colorism, and Cultural Activism in Mexico' (Llamas-Rodríguez and Téliz Martínez, 2026, in press), contributing to theoretical conceptualization, formulation of overarching research goals, writing, reviewing, and editing."
-      - name: "DragonLab Consultants"
-        date:
-        start_date: "2021"
-        end_date: "2022"
-        location: "Mexico City, Mexico"
-        summary: "Researcher"
-        highlights:
-          - "Participated in the research consulting project titled 'Analysis of Court Rulings with Gender Perspective'."
-          - "Analyzed and coded the content of 342 court rulings to determine if Mexican judges use gender perspective adequately."
-          - "Performed the statistical exploration of the data sets obtained from said content analysis."
-          - "Synthesized the results from the content analysis into a report that Mexico's Judiciary will use to evaluate the nation's Protocol to Judge with Gender Perspective."
-      - name: "Facultad Latinoamericana de Ciencias Sociales (FLACSO)"
-        date:
-        start_date: "2018"
-        end_date: "2022"
-        location: "Mexico City, Mexico"
-        summary: "Research Assistant"
-        highlights:
-          - "Analyzed data and designed visualizations for a research project about the gap between political and economic globalization."
-          - "Coordinated a research consulting project to identify the strengths and weaknesses of the evaluation system of information transparency for the National Institute of Access to Information and Personal Data Protection."
-          - "Developed an academic program and created didactic content for the National School for Women of the Institutional Revolutionary Party, empowering female members through education on gender perspective, political representation, and communication strategies."
-          - "Created educational content for the Migrant-e project (led by the Universidad Nacional Autónoma de México), teaching undocumented immigrants in the United States about their rights and safety tools."
-    Teaching positions:
       - name: "Introduction to Communication Behavior"
         date:
         start_date: "2026-01"
@@ -115,6 +62,15 @@ cv:
           - "Provided individual assistance and clarification during dedicated office hours."
           - "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records."
           - "Graded and provided dedicated feedback for assignments and final papers."
+      - name: "Center for Advanced Research in Global Communication"
+        date:
+        start_date: "2022-08"
+        end_date: "2023-08"
+        location: "Annenberg School for Communication, University of Pennsylvania"
+        summary: "Research Fellow"
+        highlights:
+          - "Worked under Dr. Juan Llamas Rodríguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation)."
+          - "Co-authored 'Poder Prieto: Media, Colorism, and Cultural Activism in Mexico' (Llamas-Rodríguez and Téliz Martínez, 2026, in press), contributing to theoretical conceptualization, formulation of overarching research goals, writing, reviewing, and editing."
       - name: "Children and Media"
         date:
         start_date: "2024-08"
@@ -127,6 +83,17 @@ cv:
           - "Graded and provided dedicated feedback for assignments and final papers."
           - "Assisted in designing and grading exams."
           - "Taught lecture on racial representations in children's media."
+      - name: "DragonLab Consultants"
+        date:
+        start_date: "2021"
+        end_date: "2022"
+        location: "Mexico City, Mexico"
+        summary: "Researcher"
+        highlights:
+          - "Participated in the research consulting project titled 'Analysis of Court Rulings with Gender Perspective'."
+          - "Analyzed and coded the content of 342 court rulings to determine if Mexican judges use gender perspective adequately."
+          - "Performed the statistical exploration of the data sets obtained from said content analysis."
+          - "Synthesized the results from the content analysis into a report that Mexico's Judiciary will use to evaluate the nation's Protocol to Judge with Gender Perspective."
       - name: "Quantitative Methods for Communication Research"
         date:
         start_date: "2020-01"
@@ -140,6 +107,34 @@ cv:
             main tool for learning Quantitative Methods.
           - "Designed all educational materials, including original slides, assignments, tests, and lab activities."
           - "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
+      - name: "Facultad Latinoamericana de Ciencias Sociales (FLACSO)"
+        date:
+        start_date: "2018"
+        end_date: "2022"
+        location: "Mexico City, Mexico"
+        summary: "Research Assistant"
+        highlights:
+          - "Analyzed data and designed visualizations for a research project about the gap between political and economic globalization."
+          - "Coordinated a research consulting project to identify the strengths and weaknesses of the evaluation system of information transparency for the National Institute of Access to Information and Personal Data Protection."
+          - "Developed an academic program and created didactic content for the National School for Women of the Institutional Revolutionary Party, empowering female members through education on gender perspective, political representation, and communication strategies."
+          - "Created educational content for the Migrant-e project (led by the Universidad Nacional Autónoma de México), teaching undocumented immigrants in the United States about their rights and safety tools."
+    publications:
+      - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico"
+        authors:
+          - "Juan Llamas-Rodríguez"
+          - "Silvia Téliz Martínez"
+        doi:
+        url: "https://nyupress.org/9781479835164/planet-digital/"
+        journal: "Planet Digital, NYU Press"
+        date: "2026-07"
+      - title: "Agresiones a periodistas y cobertura mediática de la corrupción"
+        authors:
+          - "Georgina Flores-Ivich"
+          - "Silvia Téliz Martínez"
+        doi: "10.2307/j.ctv1jhvn9w"
+        url:
+        journal: "Crisis de estatalidad y violaciones a derechos humanos, FLACSO México"
+        date: "2021"
     Presentations:
       - title: "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign"
         authors:
@@ -171,23 +166,19 @@ cv:
         url:
         journal: "ICA Preconference: \"Media and Communication in Global Latinidades\" - Online - conference presentation"
         date: "May 2023"
-    publications:
-      - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico"
-        authors:
-          - "Juan Llamas-Rodríguez"
-          - "Silvia Téliz Martínez"
-        doi:
-        url: "https://nyupress.org/9781479835164/planet-digital/"
-        journal: "Planet Digital, NYU Press"
-        date: "2026-07"
-      - title: "Agresiones a periodistas y cobertura mediática de la corrupción"
-        authors:
-          - "Georgina Flores-Ivich"
-          - "Silvia Téliz Martínez"
-        doi: "10.2307/j.ctv1jhvn9w"
-        url:
-        journal: "Crisis de estatalidad y violaciones a derechos humanos, FLACSO México"
-        date: "2021"
+    Awards and Grants:
+      - name: "Graduate Scholarship in Sciences and Humanities"
+        date: "2025"
+        start_date:
+        end_date:
+        location:
+        summary: "Awarded by the Ministry of Science, Humanities, Technology and Innovation of Mexico (SECIHTI)"
+      - name: "Fulbright García-Robles Scholarship"
+        date: "2022"
+        start_date:
+        end_date:
+        location:
+        summary: "Awarded by the US-Mexico Foundation (COMEXUS)"
     Scholarly memberships and service:
       - name: "Center for Information Networks and Democracy"
         date:
@@ -208,11 +199,6 @@ cv:
         location: "Annenberg School for Communication, University of Pennsylvania"
         summary: "Member and information manager"
         highlights: []
-    languages:
-      - number: "Spanish: native speaker"
-      - number: "English: advanced (C2)"
-      - number: "French: intermediate (B2)"
-      - number: "German: intermediate (B1)"
 design:
   theme: "sb2nov"
   page:
