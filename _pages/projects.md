@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research projects on bias in AI systems and visual political communication.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
