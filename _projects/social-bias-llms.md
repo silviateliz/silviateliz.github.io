@@ -14,4 +14,3 @@ This project investigates the mechanisms behind social bias in large language mo
 
 Presented at [IC2S2 2026](https://ic2s2-2026.org/program/) (International Conference on Computational Social Science), University of Vermont, Burlington, VT, July 28–31, 2026.
 
-*This page will be expanded once a public abstract or paper is available.*
