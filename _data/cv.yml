@@ -49,53 +49,53 @@ cv:
       - label: "Languages"
         details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
     Relevant Experience:
-      - name: "Politics, Identities, and Communication Lab"
+      - position: "Research Fellow"
+        company: "Politics, Identities, and Communication Lab"
         date:
         start_date: "2025-05"
         end_date: "present"
         location: "Annenberg School for Communication, University of Pennsylvania"
-        summary: "Research Fellow"
         highlights:
           - "Secured $10,000 USD via the Annenberg School for Communication Internal Grant for the project 'Identifying Biases in VLMs' Zero-Shot Classifications of Race and Gender' (2026-2027 academic year), as principal investigator."
           - "Contributed to the theoretical conceptualization, formulation of overarching research goals, methodology design, computational analysis of text and image data, writing, reviewing, and editing for projects developed within the lab under Dr. Deen Freelon's supervision."
-      - name: "Introduction to Communication Behavior"
+      - position: "Teaching Fellow"
+        company: "Introduction to Communication Behavior"
         date:
         start_date: "2026-01"
         end_date: "2026-05"
         location: "Annenberg School for Communication, University of Pennsylvania"
-        summary: "Teaching Fellow"
         highlights:
           - "Taught lecture 'Media Effects on Community and Everyday Culture'."
           - "Taught recitation section, providing students with additional support and guidance on course materials."
           - "Provided individual assistance and clarification during dedicated office hours."
           - "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records."
           - "Graded and provided dedicated feedback for assignments and final papers."
-      - name: "Center for Advanced Research in Global Communication"
+      - position: "Research Fellow"
+        company: "Center for Advanced Research in Global Communication"
         date:
         start_date: "2022-08"
         end_date: "2023-08"
         location: "Annenberg School for Communication, University of Pennsylvania"
-        summary: "Research Fellow"
         highlights:
           - "Worked under Dr. Juan Llamas Rodríguez's supervision on the development of a mixed-methods study on the representation of gender and skin color stereotypes in Mexican telenovelas and TV series (a report commissioned by the Luminate foundation)."
-      - name: "Children and Media"
+      - position: "Teaching Fellow"
+        company: "Children and Media"
         date:
         start_date: "2024-08"
         end_date: "2024-12"
         location: "Annenberg School for Communication, University of Pennsylvania"
-        summary: "Teaching Fellow"
         highlights:
           - "Taught lecture 'Racial Representations in Children's Media'."
           - "Provided individual assistance and clarification during dedicated office hours."
           - "Assisted the instructor with logistical tasks, such as managing the online learning platform and maintaining grade and attendance records."
           - "Graded and provided dedicated feedback for assignments and final papers."
           - "Assisted in designing and grading exams."
-      - name: "Quantitative Methods for Communication Research"
+      - position: "Instructor of Record"
+        company: "Quantitative Methods for Communication Research"
         date:
         start_date: "2020-01"
         end_date: "2022-12"
         location: "Universidad Panamericana, Mexico City"
-        summary: "Instructor of Record"
         highlights:
           - "Served as the Instructor of Record for an undergraduate-level course, delivering all lectures and directing all class activities for the Communication major."
           - |-
@@ -103,12 +103,12 @@ cv:
             main tool for learning Quantitative Methods.
           - "Designed all educational materials, including original slides, assignments, tests, and lab activities."
           - "Held regular office hours for student assistance and managed the grading of all assignments, including weekly lab activities and final projects."
-      - name: "Facultad Latinoamericana de Ciencias Sociales (FLACSO)"
+      - position: "Research Assistant"
+        company: "Facultad Latinoamericana de Ciencias Sociales (FLACSO)"
         date:
         start_date: "2018"
         end_date: "2022"
         location: "Mexico City, Mexico"
-        summary: "Research Assistant"
         highlights:
           - "Coordinated a research consulting project to identify the strengths and weaknesses of the evaluation system of information transparency for the National Institute of Access to Information and Personal Data Protection."
           - "Developed an academic program and created didactic content for the National School for Women of the Institutional Revolutionary Party, empowering female members through education on gender perspective, political representation, and communication strategies."
