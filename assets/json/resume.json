@@ -152,20 +152,19 @@
         "Assisted in designing and grading exams."
       ]
     },
-    {
-      "name": "DragonLab Consultants",
-      "position": "Researcher",
-      "url": "",
-      "startDate": "2021",
-      "endDate": "2022",
-      "summary": "Mexico City, Mexico",
-      "highlights": [
-        "Participated in the research consulting project titled 'Analysis of Court Rulings with Gender Perspective'.",
-        "Analyzed and coded the content of 342 court rulings to determine if Mexican judges use gender perspective adequately.",
-        "Performed the statistical exploration of the data sets obtained from said content analysis.",
-        "Synthesized the results from the content analysis into a report that Mexico's Judiciary will use to evaluate the nation's Protocol to Judge with Gender Perspective."
-      ]
-    },
+    //{
+     // "name": "DragonLab Consultants",
+     // "position": "Researcher",
+     // "url": "",
+     // "startDate": "2021",
+     // "endDate": "2022",
+     // "summary": "Mexico City, Mexico",
+     //"highlights": [
+     //  \"Participated in the research consulting project titled 'Analysis of Court Rulings with Gender Perspective'.\",
+     //  \"Analyzed and coded the content of 342 court rulings to determine if Mexican judges use gender perspective adequately.\",
+     //  \"Performed the statistical exploration of the data sets obtained from said content analysis.\",
+     //  ]
+    //},
     {
       "name": "Quantitative Methods for Communication Research - Universidad Panamericana",
       "position": "Instructor of Record",
@@ -188,7 +187,6 @@
       "endDate": "2022",
       "summary": "Mexico City, Mexico",
       "highlights": [
-        "Analyzed data and designed visualizations for a research project about the gap between political and economic globalization.",
         "Coordinated a research consulting project to identify the strengths and weaknesses of the evaluation system of information transparency for the National Institute of Access to Information and Personal Data Protection.",
         "Developed an academic program and created didactic content for the National School for Women of the Institutional Revolutionary Party, empowering female members through education on gender perspective, political representation, and communication strategies.",
         "Created educational content for the Migrant-e project (led by the Universidad Nacional Autónoma de México), teaching undocumented immigrants in the United States about their rights and safety tools."
@@ -296,7 +294,7 @@
   "certificates": [
     {
       "name": "Summer Institute in Computational Social Science",
-      "date": "2026-06",
+      "date": "2026",
       "issuer": "University of Pennsylvania",
       "url": "",
       "icon": ""
