@@ -30,7 +30,7 @@
       "area": "Communication",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "endDate": "present",
+      "endDate": "2027-05-01",
       "score": "",
       "courses": []
     },
@@ -66,6 +66,25 @@
         "French: intermediate (B2)",
         "German: intermediate (B1)"
       ]
+    },
+    {
+      "name": "Methods",
+      "keywords": [
+        "Computational visual analysis",
+        "Natural language processing",
+        "Machine learning",
+        "Social media data collection",
+        "Survey and experiment design",
+        "Content analysis"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "R", "Git", "HTML", "CSS"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Gephi", "Adobe Illustrator", "GitHub", "Stata", "Applied AI"]
     }
   ],
   "work": [
@@ -79,7 +98,8 @@
       "highlights": [
         "Co-authored 'WhichTok? Comparing Three TikTok Data Acquisition Tools' (Jeon et al., 2025, under review), contributing to theoretical conceptualization, writing, reviewing, and editing.",
         "Ongoing project: 'Aligned identities, curated politics: Mapping political expression on TikTok across the ideological spectrum', contributing to theoretical conceptualization, formulation of overarching research goals, methodology design, computational visual analysis of over 5000 TikTok videos, writing, reviewing, and editing.",
-        "Ongoing project: 'What do engagement metrics measure? Strategic optimization and content characteristics in AI-related content on TikTok', contributing to theoretical conceptualization, formulation of overarching research goals, methodology design, computational visual analysis of over 2000 TikTok videos, writing, reviewing, and editing."
+        "Ongoing project: 'What do engagement metrics measure? Strategic optimization and content characteristics in AI-related content on TikTok', contributing to theoretical conceptualization, formulation of overarching research goals, methodology design, computational visual analysis of over 2000 TikTok videos, writing, reviewing, and editing.",
+        "Secured $10,000 USD via the Annenberg School for Communication Internal Grant for the project 'Identifying Biases in VLMs' Zero-Shot Classifications of Race and Gender' (2026-2027 academic year), as principal investigator."
       ]
     },
     {
@@ -197,7 +217,7 @@
       "authors": "Vishwanath Emani Venkata and Silvia Téliz",
       "type": "Conference presentation",
       "venue": "IC2S2 conference - Burlington, VT, USA",
-      "summary": "As large language models (LLMs) become embedded in everyday life and are widely, if mistakenly, perceived as objective tools, the question of whether they exhibit harmful social biases grows ever more pressing. Recent research has found that many LLMs display patterns that favor one's own group (the ingroup) and disfavor other groups. However, while these biases are well documented, the mechanisms that produce them remain unexplored. In this study, we experimentally manipulate whether social biases in LLMs are driven primarily by linguistic structure or by the explicit specification of particular social groups. Furthermore, we test whether these patterns generalize across languages (English and Spanish) and across salient social groups in both Global North and Global South cultural contexts (United States, India, and Latin America). We find preliminary evidence to suggest that biased text generation in LLMs is indeed driven by the structure of the text.",
+      "summary": "",
       "releaseDate": "2026-07",
       "url": ""
     },
