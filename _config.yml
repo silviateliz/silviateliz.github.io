@@ -148,7 +148,7 @@ collections:
       layout: post
     output: true
   projects:
-    output: false
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -194,7 +194,6 @@ exclude:
   - _pages/about_einstein.md
   - _pages/books.md
   - _pages/publications.md
-  - _pages/projects.md
   - _pages/repositories.md
   - _pages/profiles.md
   - _pages/dropdown.md
