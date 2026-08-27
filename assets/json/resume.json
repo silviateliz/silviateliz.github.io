@@ -167,6 +167,14 @@
   ],
   "publications": [
     {
+      "name": "WhichTok? Comparing Three TikTok Data Acquisition Tools",
+      "authors": "Gayoung Jeon, Cameron Moy, Silvia Téliz, Cristina Monzer, Nicolette Alayon, and Deen Freelon",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-08",
+      "url": "https://arxiv.org/abs/2608.09917",
+      "summary": ""
+    },
+    {
       "name": "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico",
       "authors": "Juan Llamas-Rodríguez and Silvia Téliz Martínez",
       "publisher": "Planet Digital (NYU Press)",
@@ -184,6 +192,15 @@
     }
   ],
   "presentations": [
+    {
+      "name": "Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group Specification",
+      "authors": "Vishwanath Emani Venkata and Silvia Téliz",
+      "type": "Conference presentation",
+      "venue": "IC2S2 conference - Burlington, VT, USA",
+      "summary": "As large language models (LLMs) become embedded in everyday life and are widely, if mistakenly, perceived as objective tools, the question of whether they exhibit harmful social biases grows ever more pressing. Recent research has found that many LLMs display patterns that favor one's own group (the ingroup) and disfavor other groups. However, while these biases are well documented, the mechanisms that produce them remain unexplored. In this study, we experimentally manipulate whether social biases in LLMs are driven primarily by linguistic structure or by the explicit specification of particular social groups. Furthermore, we test whether these patterns generalize across languages (English and Spanish) and across salient social groups in both Global North and Global South cultural contexts (United States, India, and Latin America). We find preliminary evidence to suggest that biased text generation in LLMs is indeed driven by the structure of the text.",
+      "releaseDate": "2026-07",
+      "url": ""
+    },
     {
       "name": "Picturing Immigration: A Multimodal Computational Analysis of the 2024 U.S. Presidential Campaign",
       "authors": "Silvia Téliz and Gayoung Jeon",
