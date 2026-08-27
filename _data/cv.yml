@@ -1,3 +1,4 @@
+# Renders with `pip install "rendercv[full]==2.3"` (v2.4+ overhauled the design schema and rejects this file).
 cv:
   name: "Silvia Téliz Martínez"
   location: "Philadelphia, PA, USA"
