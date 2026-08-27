@@ -30,7 +30,7 @@
       "area": "Communication",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "endDate": "present",
+      "endDate": "2027-05-01",
       "score": "",
       "courses": []
     },
@@ -66,6 +66,25 @@
         "French: intermediate (B2)",
         "German: intermediate (B1)"
       ]
+    },
+    {
+      "name": "Methods",
+      "keywords": [
+        "Computational visual analysis",
+        "Natural language processing",
+        "Machine learning",
+        "Social media data collection",
+        "Survey and experiment design",
+        "Content analysis"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "R", "Git", "HTML", "CSS"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Gephi", "Adobe Illustrator", "GitHub", "Stata", "Applied AI"]
     }
   ],
   "work": [

@@ -15,7 +15,7 @@ cv:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "PhD"
-        date: "present"
+        date: "2027-05"
         start_date:
         end_date:
         location: "Philadelphia, PA, USA"
@@ -38,10 +38,14 @@ cv:
         summary:
         highlights: []
     Technical Skills and Methodologies:
-      - number: "Spanish: native speaker"
-      - number: "English: advanced (C2)"
-      - number: "French: intermediate (B2)"
-      - number: "German: intermediate (B1)"
+      - label: "Languages"
+        details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
+      - label: "Methods"
+        details: "Computational visual analysis, natural language processing, machine learning, social media data collection, survey and experiment design, content analysis"
+      - label: "Programming"
+        details: "Python, R, Git, HTML, CSS"
+      - label: "Software"
+        details: "Gephi, Adobe Illustrator, GitHub, Stata, Applied AI"
     Relevant Experience:
       - name: "Politics, Identities, and Communication Lab"
         date:
@@ -361,4 +365,4 @@ locale:
     - "November"
     - "December"
 rendercv_settings:
-  date: "2026-07-08"
+  date: "2026-08-26"
