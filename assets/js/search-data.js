@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Selected research projects on bias in AI systems and visual political communication.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -31,51 +38,16 @@ ninja.data = [{
           section: "News",},{id: "news-our-project-identifying-biases-in-vlms-zero-shot-classifications-of-race-and-gender-was-awarded-10-000-usd-through-the-annenberg-school-for-communication-internal-grant-i-will-be-leading-this-project-as-principal-investigator-during-the-2026-2027-academic-year-collaborating-with-my-colleagues-from-the-politics-identites-and-communication-lab-dr-cristina-monzer-and-dr-deen-freelon",
           title: 'Our project “Identifying Biases in VLMs’ Zero-Shot Classifications of Race and Gender” was...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-mechanisms-of-social-bias-in-large-language-models-disentangling-linguistic-framing-from-group-specification",
+          title: 'Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group...',
+          description: "An investigation of whether social bias in large language models is driven by the linguistic framing of a prompt or by the explicit specification of a social group.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/social-bias-llms/";
+            },},{id: "projects-identifying-biases-in-vlms-39-zero-shot-classifications-of-race-and-gender",
+          title: 'Identifying Biases in VLMs&amp;#39; Zero-Shot Classifications of Race and Gender',
+          description: "An audit framework comparing how vision-language models label race and gender in face images against annotations from a demographically balanced sample of U.S. adults.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/vlm-bias-race-gender/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
