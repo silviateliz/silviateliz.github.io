@@ -38,8 +38,6 @@ cv:
         summary:
         highlights: []
     Technical Skills and Methodologies:
-      - label: "Languages"
-        details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
       - label: "Methods"
         details: "Computational visual analysis, natural language processing, machine learning, social media data collection, survey and experiment design, content analysis"
       - label: "Programming"
@@ -48,6 +46,8 @@ cv:
         details: "Gephi, Adobe Illustrator, GitHub, Stata"
       - label: "AI Tools and Deployment"
         details: "Hugging Face Transformers, Ollama, OpenRouter, proprietary LLM APIs (Anthropic, OpenAI, Gemini), PyTorch"
+      - label: "Languages"
+        details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
     Relevant Experience:
       - name: "Politics, Identities, and Communication Lab"
         date:
@@ -125,7 +125,7 @@ cv:
         doi:
         url: "https://arxiv.org/abs/2608.09917"
         journal: "arXiv preprint"
-        date: "2026-08"
+        date: "2026"
       - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico"
         authors:
           - "Juan Llamas-Rodríguez"
@@ -133,7 +133,7 @@ cv:
         doi:
         url: "https://nyupress.org/9781479835164/planet-digital/"
         journal: "Planet Digital, NYU Press"
-        date: "2026-07"
+        date: "2026"
       - title: "Agresiones a periodistas y cobertura mediática de la corrupción"
         authors:
           - "Georgina Flores-Ivich"
@@ -223,7 +223,7 @@ cv:
       - name: "Center for Advanced Research in Global Communication"
         date:
         start_date: "2022"
-        end_date: "present"
+        end_date: "2025"
         location: "Annenberg School for Communication, University of Pennsylvania"
         summary: "Doctoral fellow"
       - name: "Graduate Student Council"
