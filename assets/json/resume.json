@@ -6,7 +6,7 @@
     "email": "silvia.teliz@asc.upenn.edu",
     "phone": "",
     "url": "https://silviateliz.github.io",
-    "summary": "I am a PhD candidate at the Annenberg School for Communication, University of Pennsylvania. I use computational social science methods to explore the visual representation of social identity in political communication. My dissertation project leverages Urban Visual Data to study how out-of-home political advertisements influence electoral outcomes in Mexican elections.",
+    "summary": "I am a PhD candidate (expected July 2027) at the Annenberg School for Communication, University of Pennsylvania, studying how social identity is visually conveyed and leveraged in political communication. I combine computer vision, natural language processing, and machine learning to analyze large-scale text, image, and video data — from out-of-home political advertisements in Mexican elections to political expression on TikTok — and to study bias in AI systems such as vision-language models.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,9 +30,9 @@
       "area": "Communication",
       "studyType": "PhD",
       "startDate": "2022-08-01",
-      "endDate": "2027-05-01",
+      "endDate": "2027-07-01",
       "score": "",
-      "summary": "Degree expected in May 2027.",
+      "summary": "Degree expected in July 2027.",
       "courses": []
     },
     {
@@ -60,15 +60,6 @@
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": [
-        "Spanish: native speaker",
-        "English: advanced (C2)",
-        "French: intermediate (B2)",
-        "German: intermediate (B1)"
-      ]
-    },
-    {
       "name": "Methods",
       "keywords": [
         "Computational visual analysis",
@@ -95,6 +86,15 @@
         "OpenRouter",
         "Proprietary LLM APIs (Anthropic, OpenAI, Gemini)",
         "PyTorch"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Spanish: native speaker",
+        "English: advanced (C2)",
+        "French: intermediate (B2)",
+        "German: intermediate (B1)"
       ]
     }
   ],
