@@ -8,22 +8,18 @@ cv:
   social_networks:
     - network: "LinkedIn"
       username: "silvia-teliz"
-    - network: "GitHub"
-      username: "silviateliz"
-    - network: "Google Scholar"
-      username: "bEIbJF8AAAAJ"
   sections:
     Summary:
-      - "I am a PhD candidate at the Annenberg School for Communication, University of Pennsylvania. I use computational social science methods to explore the visual representation of social identity in political communication. My dissertation project leverages Urban Visual Data to study how out-of-home political advertisements influence electoral outcomes in Mexican elections."
+      - "I am a PhD candidate (expected July 2027) at the Annenberg School for Communication, University of Pennsylvania, studying how social identity is visually conveyed and leveraged in political communication. I combine computer vision, natural language processing, and machine learning to analyze large-scale text, image, and video data — from out-of-home political advertisements in Mexican elections to political expression on TikTok — and to study bias in AI systems such as vision-language models."
     education:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "PhD"
-        date: "2027-05"
+        date: "2027-07"
         start_date:
         end_date:
         location: "Philadelphia, PA, USA"
-        summary: "Degree expected in May 2027."
+        summary: "Degree expected in July 2027."
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "Master of Arts"
