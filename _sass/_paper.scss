@@ -1,0 +1,496 @@
+/*******************************************************************************
+ * Paper — restyle for al-folio.
+ * Drop-in: add "paper" as the LAST entry of the @import list in
+ * assets/css/main.scss. Nothing else in _sass/ needs to change.
+ ******************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  /* Paper tokens */
+  --paper-0: #fbfaf6;
+  --paper-1: #f2f0e9;
+  --paper-2: #e7e4da;
+  --paper-3: #dedbd1;
+  --ink-1: #111110;
+  --ink-2: #35342f;
+  --ink-3: #65635b;
+  --ink-4: #96938a;
+  --rule-1: #dedbd1;
+  --rule-2: #c6c2b5;
+  --marker-1: #fcffd8;
+  --marker-2: #faff63;
+  --marker-3: #e7ee22;
+  --marker-4: #6e7208;
+  --highlight-rgb: 250, 255, 99;
+  --rule-2-rgb: 198, 194, 181;
+
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-meta: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* al-folio globals remapped onto Paper */
+  color-scheme: light;
+  --global-bg-color: var(--paper-1);
+  --global-code-bg-color: var(--paper-2);
+  --global-text-color: var(--ink-2);
+  --global-text-color-light: var(--ink-3);
+  --global-theme-color: var(--marker-4);
+  --global-hover-color: var(--marker-4);
+  --global-hover-text-color: var(--ink-1);
+  --global-footer-bg-color: var(--paper-1);
+  --global-footer-text-color: var(--ink-3);
+  --global-footer-link-color: var(--ink-1);
+  --global-distill-app-color: var(--ink-3);
+  --global-divider-color: var(--rule-1);
+  --global-card-bg-color: var(--paper-0);
+  --global-highlight-color: var(--marker-4);
+  --global-back-to-top-bg-color: rgba(17, 17, 16, 0.35);
+  --global-back-to-top-text-color: var(--paper-0);
+  --global-newsletter-bg-color: var(--paper-0);
+  --global-newsletter-text-color: var(--ink-1);
+}
+
+/* ---------- Dark: "Olive black" ---------- */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --paper-0: #1e2015;
+  --paper-1: #17180f;
+  --paper-2: #23261a;
+  --paper-3: #2c2e20;
+  --ink-1: #edebdd;
+  --ink-2: #c3c2b0;
+  --ink-3: #8b8b7a;
+  --ink-4: #68685a;
+  --rule-1: #2c2e20;
+  --rule-2: #43452f;
+  --marker-1: #2a2d18;
+  --marker-3: #b9c21b;
+  --marker-4: #cbd32e;
+  --rule-2-rgb: 67, 69, 47;
+  /* the stroke runs at half strength on dark, and screens instead of multiplying */
+  --pm-stroke-alpha: 0.45;
+
+  --global-bg-color: var(--paper-1);
+  --global-code-bg-color: var(--paper-2);
+  --global-text-color: var(--ink-2);
+  --global-text-color-light: var(--ink-3);
+  --global-theme-color: var(--marker-4);
+  --global-hover-color: var(--marker-4);
+  --global-hover-text-color: var(--paper-1);
+  --global-footer-bg-color: var(--paper-1);
+  --global-footer-text-color: var(--ink-3);
+  --global-footer-link-color: var(--ink-1);
+  --global-divider-color: var(--rule-1);
+  --global-card-bg-color: var(--paper-0);
+  --global-highlight-color: var(--marker-4);
+  --global-back-to-top-bg-color: rgba(237, 235, 221, 0.28);
+  --global-back-to-top-text-color: var(--paper-1);
+  --global-newsletter-bg-color: var(--paper-0);
+  --global-newsletter-text-color: var(--ink-1);
+
+  .mark:after,
+  a.btn:after,
+  a.btn-sm:after,
+  .btn-paper:after {
+    mix-blend-mode: screen;
+  }
+
+  .mark {
+    color: #f6f5e4;
+  }
+}
+
+/* ---------- Type ---------- */
+
+body {
+  background: var(--paper-1);
+  color: var(--ink-2);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.navbar-brand {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.022em;
+  color: var(--ink-1);
+}
+
+.post-header .post-title {
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+.post-header .desc,
+.post-description {
+  font-family: var(--font-meta);
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+/* Section headings on the about page ("news", "selected publications") */
+article > h2 {
+  font-family: var(--font-meta);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink-1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2.6rem 0 0.2rem;
+
+  &:after {
+    content: "";
+    flex: 1 1 auto;
+    height: 2px;
+    background: var(--marker-3);
+    opacity: 0.85;
+  }
+}
+
+/* ---------- Links ---------- */
+
+a,
+a:visited {
+  color: var(--ink-1);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-2);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition: color 120ms cubic-bezier(0.2, 0.6, 0.2, 1), text-decoration-color 120ms cubic-bezier(0.2, 0.6, 0.2, 1);
+
+  &:hover {
+    color: var(--marker-4);
+    text-decoration-color: var(--marker-4);
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--marker-4);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--marker-2);
+  color: var(--ink-1);
+}
+
+/* ---------- Header / nav ---------- */
+
+.navbar {
+  background: var(--paper-1) !important;
+  border-bottom: 1px solid var(--rule-1);
+  box-shadow: none !important;
+  backdrop-filter: none;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+  text-decoration: none;
+}
+
+.navbar .nav-item .nav-link {
+  font-family: var(--font-meta);
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: lowercase;
+  color: var(--ink-3);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--ink-1);
+  }
+}
+
+.navbar .nav-item.active .nav-link {
+  color: var(--ink-1);
+  text-decoration: underline;
+  text-decoration-color: var(--marker-3);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.35em;
+  background: none;
+}
+
+.dropdown-menu {
+  background: var(--paper-0);
+  border: 1px solid var(--rule-1);
+  border-radius: 6px;
+  box-shadow: 0 6px 24px -12px rgba(17, 17, 16, 0.22);
+}
+
+/* ---------- Profile portrait ---------- */
+
+.profile {
+  width: 220px;
+
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 52% 40%;
+    border-radius: 0;
+    box-shadow: none !important;
+  }
+
+  .more-info {
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--ink-3);
+    border: 0;
+    padding: 0.75rem 0 0;
+    text-align: left;
+
+    a {
+      display: block;
+    }
+  }
+}
+
+/* ---------- News table ---------- */
+
+.news {
+  th {
+    font-family: var(--font-meta);
+    font-size: 0.66rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-4);
+    padding-top: 1rem;
+    white-space: nowrap;
+  }
+
+  td {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--rule-1);
+  }
+
+  /* On phones the date sits above the item instead of in a fixed 20% column. */
+  @media (max-width: 600px) {
+    th,
+    td {
+      display: block;
+      width: auto !important;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    th {
+      padding-bottom: 0.1rem;
+    }
+
+    td {
+      padding-top: 0;
+    }
+  }
+}
+
+/* ---------- Marker: emphasis and actions ---------- */
+
+/* Wrap a short phrase: <span class="mark">social identity</span>
+   Two to four words, never a whole sentence, single line only. */
+.mark {
+  position: relative;
+  display: inline;
+  white-space: nowrap;
+  color: var(--ink-1);
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: -0.22em;
+    right: -0.26em;
+    top: 0.02em;
+    bottom: -0.06em;
+    background: linear-gradient(
+      90deg,
+      rgba(var(--highlight-rgb), 0),
+      rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 3%,
+      rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 96%,
+      rgba(var(--highlight-rgb), 0)
+    );
+    mix-blend-mode: multiply;
+    filter: url(#pm-marker-wobble);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+}
+
+/* Actions. al-folio buttons (a.btn) become highlighted words that flood on hover. */
+a.btn,
+a.btn-sm,
+.btn-paper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 2px 3px;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: var(--ink-1) !important;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: -0.12em;
+    right: -0.16em;
+    bottom: 1px;
+    height: 6px;
+    background: linear-gradient(
+      90deg,
+      rgba(var(--highlight-rgb), 0),
+      rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 3%,
+      rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 96%,
+      rgba(var(--highlight-rgb), 0)
+    );
+    mix-blend-mode: multiply;
+    filter: url(#pm-marker-wobble);
+    border-radius: 3px;
+    transition: height 180ms cubic-bezier(0.2, 0.6, 0.2, 1);
+    pointer-events: none;
+  }
+
+  &:hover:after,
+  &:focus-visible:after {
+    height: 100%;
+  }
+}
+
+/* Quiet action: grey stroke that turns yellow on hover. */
+a.btn-quiet:after {
+  background: linear-gradient(
+    90deg,
+    rgba(var(--rule-2-rgb), 0),
+    rgba(var(--rule-2-rgb), 0.9) 4%,
+    rgba(var(--rule-2-rgb), 0.9) 96%,
+    rgba(var(--rule-2-rgb), 0)
+  );
+}
+
+a.btn-quiet:hover:after {
+  background: linear-gradient(
+    90deg,
+    rgba(var(--highlight-rgb), 0),
+    rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 3%,
+    rgba(var(--highlight-rgb), var(--pm-stroke-alpha, 0.95)) 96%,
+    rgba(var(--highlight-rgb), 0)
+  );
+}
+
+/* ---------- Surfaces, cards, footer ---------- */
+
+.card,
+.card-item {
+  background: var(--paper-0);
+  border: 1px solid var(--rule-1);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(17, 17, 16, 0.05) !important;
+}
+
+.social .contact-icons a i,
+.social .contact-icons i {
+  color: var(--ink-2);
+
+  &:hover {
+    color: var(--marker-4);
+  }
+}
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  background: var(--paper-1);
+  border-top: 1px solid var(--rule-1);
+  color: var(--ink-3);
+  font-size: 0.8rem;
+
+  a {
+    color: var(--ink-2);
+  }
+}
+
+/* Tables, quotes, code */
+
+blockquote {
+  border-left: 2px solid var(--marker-3);
+  background: transparent;
+  color: var(--ink-2);
+  padding-left: 1rem;
+}
+
+pre,
+code {
+  font-family: var(--font-meta);
+  background: var(--paper-2);
+}
+
+hr {
+  border-top: 1px solid var(--rule-1);
+}
+
+/* ---------- Phone hit targets ---------- */
+
+@media (max-width: 600px) {
+  .navbar .nav-item .nav-link {
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .profile .more-info a,
+  footer a,
+  .social .contact-icons a {
+    display: inline-block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  a.btn,
+  a.btn-sm,
+  .btn-paper {
+    padding: 15px 2px 14px;
+
+    &:after {
+      bottom: 13px;
+    }
+
+    &:hover:after,
+    &:focus-visible:after {
+      top: 13px;
+      bottom: 13px;
+      height: auto;
+    }
+  }
+}

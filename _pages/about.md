@@ -6,8 +6,8 @@ subtitle: PhD candidate at the <a href='https://www.asc.upenn.edu/people/graduat
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic3.jpg
+  image_circular: false # crops the image to make it circular
   more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I use computational social science methods to study the visual representation of social identity in political communication, with a focus in Mexico and the Latin American region. I am interested in exploring political actors’ usage of group appeals in visual media and voters’ group-based political preferences. At the Annenberg school, I am affiliated with the Center for Information Networks and Democracy (<a href='https://www.asc.upenn.edu/research/centers/center-for-information-networks-and-democracy'>CIND</a>), and the Politics, Identities, and Communication Lab (<a href='https://www.asc.upenn.edu/research/centers/picl'>PICL</a>). 
+I use <span class="mark">computational social science</span> methods to study social identity in visual political communication and social biases in multimodal AI systems. At the Annenberg school, I am affiliated with the Center for Information Networks and Democracy (<a href='https://www.asc.upenn.edu/research/centers/center-for-information-networks-and-democracy'>CIND</a>), and the Politics, Identities, and Communication Lab (<a href='https://www.asc.upenn.edu/research/centers/picl'>PICL</a>). 
  
 I was born and raised in Mexico City, where I obtained a B.A. degree in Communication from Universidad Panamericana. After graduating college in 2018, I collaborated in numerous research consulting projects, mainly on gender and transparency issues. I worked in evaluating public policy programs for Mexican institutions such as the National Institute for Information Access and the National Judiciary. In 2021, I became a Fulbright-García Robles grantee.
