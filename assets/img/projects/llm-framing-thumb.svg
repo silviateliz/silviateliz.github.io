@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 600 300" role="img" aria-label="Abstract illustration of two text prompts with a highlighted phrase, representing linguistic framing in language models">
+  <g fill="none" stroke="#7a7a6e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- prompt bubble 1: implicit framing -->
+    <g transform="translate(60,60)">
+      <rect x="0" y="0" width="230" height="130" rx="14"/>
+      <path d="M20 130 L20 155 L45 130 Z" fill="#f2f0e9" stroke="#7a7a6e"/>
+      <line x1="24" y1="34" x2="200" y2="34"/>
+      <line x1="24" y1="60" x2="180" y2="60"/>
+      <rect x="24" y="80" width="90" height="18" rx="4" fill="#8a8c1e22" stroke="#8a8c1e"/>
+      <line x1="122" y1="89" x2="206" y2="89"/>
+    </g>
+
+    <!-- prompt bubble 2: explicit framing -->
+    <g transform="translate(320,190)">
+      <rect x="0" y="0" width="230" height="130" rx="14"/>
+      <path d="M190 0 L190 -25 L165 0 Z" fill="#f2f0e9" stroke="#7a7a6e"/>
+      <line x1="24" y1="34" x2="206" y2="34"/>
+      <rect x="24" y="54" width="120" height="18" rx="4" fill="#8a8c1e22" stroke="#8a8c1e"/>
+      <line x1="150" y1="63" x2="206" y2="63"/>
+      <line x1="24" y1="90" x2="170" y2="90"/>
+    </g>
+
+    <!-- connecting arrow: same underlying mechanism -->
+    <path d="M300 150 C 330 165, 300 185, 330 195" stroke-dasharray="4 6"/>
+
+    <!-- output marker -->
+    <g transform="translate(20,230)" stroke="#8a8c1e">
+      <circle cx="0" cy="0" r="5" fill="#8a8c1e" stroke="none"/>
+      <circle cx="0" cy="20" r="5" fill="#7a7a6e" stroke="none"/>
+      <circle cx="0" cy="40" r="5" fill="#7a7a6e" stroke="none"/>
+    </g>
+  </g>
+</svg>
