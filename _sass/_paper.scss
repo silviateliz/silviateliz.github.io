@@ -262,6 +262,38 @@ a:visited {
       display: block;
     }
   }
+
+  .social {
+    text-align: left;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule-1);
+
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.85rem;
+      font-size: 1.35rem;
+
+      a {
+        display: inline-flex;
+      }
+    }
+
+    .contact-note {
+      margin-top: 0.5rem;
+    }
+  }
+
+  /* Below this width the photo no longer has room to float beside the bio
+     text without clipping; stack it full-width above the text instead. */
+  @media (max-width: 600px) {
+    float: none !important;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 1.5rem !important;
+  }
 }
 
 /* ---------- News table ---------- */
