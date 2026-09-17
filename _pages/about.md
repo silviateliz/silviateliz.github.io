@@ -6,8 +6,8 @@ subtitle: PhD candidate at the <a href='https://www.asc.upenn.edu/people/graduat
 
 profile:
   align: right
-  image: prof_pic3.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
   more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

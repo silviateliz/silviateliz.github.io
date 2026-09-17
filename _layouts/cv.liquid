@@ -98,6 +98,8 @@ layout: default
                   Relevant Experience
                 {% when 'awards' %}
                   Honors and Awards
+                {% when 'memberships' %}
+                  Scholarly Memberships and Service
                 {% else %}
                   {{ data[0] | capitalize }}
               {% endcase %}
@@ -128,6 +130,8 @@ layout: default
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
+                {% when 'memberships' %}
+                  {% include resume/memberships.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
