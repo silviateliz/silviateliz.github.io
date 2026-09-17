@@ -264,7 +264,7 @@ a:visited {
   }
 
   .social {
-    text-align: left;
+    text-align: center;
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--rule-1);
@@ -273,6 +273,7 @@ a:visited {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      justify-content: center;
       gap: 0.85rem;
       font-size: 1.35rem;
 
