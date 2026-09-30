@@ -10,7 +10,7 @@ cv:
       username: "silvia-teliz"
   sections:
     Summary:
-      - "I am a PhD candidate (expected July 2027) at the Annenberg School for Communication, University of Pennsylvania, studying visual political communication and social biases in multimodal AI systems. I combine computer vision, natural language processing, and machine learning to analyze large-scale multimodal data, from TikTok content, to street political advertisements. My dissertation project, Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns, examines how skin tone and other visual cues influence electoral outcomes in Mexico. I have also conducted research on the nature of social biases in large language models and visual language models. My work has been published in the International Journal of Press/Politics and presented at conferences such as IC2S2 and PolNet-PACSS. I have extensive experience in teaching and mentoring students, having served as a teaching fellow for two courses at the Annenberg School for Communication, and as an instructor of record at Universidad Panamericana."
+      - "I am a PhD candidate (expected July 2027) at the Annenberg School for Communication, University of Pennsylvania, studying visual political communication and social biases in multimodal AI systems. I combine computer vision, natural language processing, and machine learning to analyze large-scale multimodal data, from TikTok content, to street political advertisements. My dissertation project, Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns, examines how skin tone and other visual cues influence electoral outcomes in Mexico. I have also conducted research on the nature of social biases in large language models and vision-language models. My work has been published in the International Journal of Press/Politics and presented at conferences such as IC2S2 and PolNet-PACSS. I have extensive experience in teaching and mentoring students, having served as a teaching fellow for two courses at the Annenberg School for Communication, and as an instructor of record at Universidad Panamericana."
     education:
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
@@ -19,7 +19,7 @@ cv:
         start_date:
         end_date:
         location: 
-        summary: "Degree expected in July 2027. Dissertation title: 'Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns'. Committee: Dr. Sandra González-Bailón (chair), Dr. Deen Freelon, Dr. Yphtach Lelkes."
+        summary: "*Degree expected in July 2027. Dissertation title: 'Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns'. Committee: Dr. Sandra González-Bailón (chair), Dr. Deen Freelon, Dr. Yphtach Lelkes.*"
       - institution: "Annenberg School for Communication, University of Pennsylvania"
         area: "Communication"
         degree: "Master of Arts"
@@ -53,9 +53,9 @@ cv:
         authors:
           - "**Silvia Téliz**"
           - "Sandra González-Bailón"
-        doi:
+        doi: "10.1177/19401612261484045"
         url:
-        journal: "International Journal of Press/Politics (in press)"
+        journal: "International Journal of Press/Politics"
         date: "2026"
       - title: "WhichTok? Comparing Three TikTok Data Acquisition Tools"
         authors:
@@ -67,7 +67,7 @@ cv:
           - "Deen Freelon"
         doi:
         url: "https://arxiv.org/abs/2608.09917"
-        journal: "arXiv preprint"
+        journal: "arXiv preprint, accepted for the upcoming 21st International AAAI Conference on Web and Social Media"
         date: "2026"
       - title: "Poder Prieto: Media, Colorism, and Cultural Activism in Mexico"
         authors:
@@ -77,7 +77,7 @@ cv:
         url: "https://nyupress.org/9781479835164/planet-digital/"
         journal: "Planet Digital, NYU Press"
         date: "2026"
-      - title: "Agresiones a periodistas y cobertura mediática de la corrupción"
+      - title: "Agresiones a periodistas y cobertura mediática de la corrupción [*Attacks on Journalists and Media Coverage of Corruption*]"
         authors:
           - "Georgina Flores-Ivich"
           - "**Silvia Téliz**"
@@ -148,7 +148,7 @@ cv:
       - title: "Understanding Bias in AI Systems"
         authors:
           - "Silvia Téliz"
-        journal: "*Guest lecture.* COM 107 AI and Creativity, Stony Brook University - Stony Brook, NY, USA"
+        journal: "*Guest lecture.* COM 107 AI and Creativity, Stony Brook University - Stony Brook, NY, USA (classroom size: 400)"
         date: "September 2026"
       - title: "Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group Specification"
         authors:
