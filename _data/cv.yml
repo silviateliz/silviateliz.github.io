@@ -37,17 +37,6 @@ cv:
         location: 
         summary:
         highlights: []
-    Technical Skills and Methodologies:
-      - label: "Methods"
-        details: "Computational visual analysis, natural language processing, machine learning, social media data collection, survey and experiment design, content analysis"
-      - label: "Programming"
-        details: "Python, R, Git, HTML, CSS"
-      - label: "Software"
-        details: "Gephi, Adobe Illustrator, GitHub, Stata"
-      - label: "AI Tools and Deployment"
-        details: "Hugging Face Transformers, Ollama, OpenRouter, proprietary LLM APIs (Anthropic, OpenAI, Gemini), PyTorch"
-      - label: "Languages"
-        details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
     publications:
       - title: "Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico"
         authors:
@@ -188,6 +177,17 @@ cv:
         url:
         journal: "*Conference presentation.* ICA Preconference: \"Media and Communication in Global Latinidades\" - Online"
         date: "May 2023"
+    Technical Skills and Methodologies:
+      - label: "Methods"
+        details: "Computational visual analysis, natural language processing, machine learning, social media data collection, survey and experiment design, content analysis"
+      - label: "Programming"
+        details: "Python, R, Git, HTML, CSS"
+      - label: "Software"
+        details: "Gephi, Adobe Illustrator, GitHub, Stata"
+      - label: "AI Tools and Deployment"
+        details: "Hugging Face Transformers, Ollama, OpenRouter, proprietary LLM APIs (Anthropic, OpenAI, Gemini), PyTorch"
+      - label: "Languages"
+        details: "Spanish: native speaker, English: advanced (C2), French: intermediate (B2), German: intermediate (B1)"
     Honors and Awards:
       - name: "Annenberg School for Communication Internal Grant"
         date: "2026"
@@ -227,19 +227,30 @@ cv:
         end_date: "present"
         location: "Annenberg School for Communication, University of Pennsylvania"
         summary: "Doctoral fellow and meeting administrator"
+        highlights:
+          - "Coordinated room and catering logistics for weekly meetings."
+          - "Contacted speakers for weekly meetings."
+          - "Managed communications with center members."
       - name: "Center for Advanced Research in Global Communication"
         date:
         start_date: "2022"
         end_date: "2025"
         location: "Annenberg School for Communication, University of Pennsylvania"
         summary: "Doctoral fellow"
+        highlights:
+          - "Participated in center seminars."
+          - "Coordinated IT and speaker logistics for the 2025 CARGC Fellows Biennial Conference."
       - name: "Graduate Student Council"
         date:
         start_date: "2023"
         end_date: "2024"
         location: "Annenberg School for Communication, University of Pennsylvania"
         summary: "Member and information manager"
-        highlights: []
+        highlights:
+          - "Organized networking and social events for graduate students."
+          - "Communicated student grievances to faculty and administrators."
+          - "Organized town hall meetings for graduate students."
+          - "Kept weekly meeting agendas."
 design:
   theme: "sb2nov"
   page:
