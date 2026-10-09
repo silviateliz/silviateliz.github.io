@@ -11,12 +11,6 @@ mission: >-
   My mission as an instructor is to equip students with the intellectual tools to help them
   become <em class="mark">critical communicators and media users</em>.
 
-principles:
-  - title: Principle 1 · Student-centered learning
-    text: >-
-      Designing courses around students’ needs, prioritizing their well-being and access. 
-    text: >-
-      Building diverse cultural perspectives into the curriculum. 
 
 experience:
   - when: Sep 2026
