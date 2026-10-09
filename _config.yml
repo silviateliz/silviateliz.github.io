@@ -52,7 +52,7 @@ posts_in_search: false
 bib_search: false
 
 # Dimensions
-max_width: 930px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -634,17 +634,17 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
+jsonresume: # sections shown on the CV page, in this order
   - basics
   - education
-  - skills
-  - work
   - publications
   - presentations
-  - projects
-  - volunteer
+  - work
   - awards
   - certificates
   - memberships
+  - projects
+  - volunteer
   - interests
   - references
+  - skills

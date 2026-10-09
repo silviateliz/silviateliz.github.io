@@ -2,8 +2,8 @@
 layout: page
 title: "Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group Specification"
 description: An investigation of whether social bias in large language models is driven by the linguistic framing of a prompt or by the explicit specification of a social group.
-img: assets/img/projects/llm-framing-thumb.svg
 importance: 2
+label: Large language models
 category: research
 related_publications: false
 ---
