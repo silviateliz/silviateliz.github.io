@@ -1,0 +1,134 @@
+---
+layout: default
+---
+{% comment %}
+  Editorial teaching page. All content lives in the front matter of _pages/teaching.md.
+{% endcomment %}
+<div class="post ed-teach">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  {% if page.mission %}
+    <p class="ed-teach-mission">{{ page.mission }}</p>
+  {% endif %}
+
+  {% if page.principles %}
+    <div class="ed-teach-principles">
+      {% for p in page.principles %}
+        <div>
+          <h2>{{ p.title }}</h2>
+          <p>{{ p.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if page.experience %}
+    <section class="ed-teach-section">
+      <h2>Teaching experience</h2>
+      {% for e in page.experience %}
+        <div class="ed-teach-entry">
+          <span class="ed-teach-when">{{ e.when }}</span>
+          <div>
+            <p class="ed-teach-title">{{ e.role }}</p>
+            {% if e.where %}<p class="ed-teach-where">{{ e.where }}</p>{% endif %}
+            {% if e.note %}<p class="ed-teach-note">{{ e.note }}</p>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% if page.materials %}
+    <section class="ed-teach-section">
+      <h2>Teaching materials</h2>
+      {% for m in page.materials %}
+        <div class="ed-teach-entry">
+          <span class="ed-teach-when">{{ m.when }}</span>
+          <div>
+            <p class="ed-teach-title">{{ m.course }}</p>
+            {% if m.where %}<p class="ed-teach-where">{{ m.where }}</p>{% endif %}
+            {% if m.github or m.syllabus %}
+              <p class="ed-teach-links">
+                {% if m.github %}
+                  <a href="{{ m.github }}" target="_blank" rel="noopener noreferrer">Course repository on GitHub ↗</a>
+                {% endif %}
+                {% if m.syllabus %}
+                  <a
+                    {% if m.syllabus contains '://' %}
+                      href="{{ m.syllabus }}"
+                    {% else %}
+                      href="{{ m.syllabus | prepend: 'assets/pdf/' | relative_url }}"
+                    {% endif %}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Syllabus (PDF) ↓</a
+                  >
+                {% endif %}
+              </p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% if page.stats or page.quotes %}
+    <section class="ed-teach-section">
+      <h2>What students say</h2>
+      {% if page.stats %}
+        <div class="ed-teach-stats">
+          {% for s in page.stats %}
+            <div>
+              <span class="ed-teach-value">{{ s.value }}{% if s.unit %}<span class="ed-teach-unit"> {{ s.unit }}</span>{% endif %}</span>
+              <span class="ed-teach-label">{{ s.label }}</span>
+              {% if s.source %}<span class="ed-teach-source">{{ s.source }}</span>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if page.quotes %}
+        <div class="ed-teach-quotes">
+          {% for q in page.quotes %}
+            <blockquote>
+              <p>“{{ q.text }}”</p>
+              {% if q.source %}<p class="ed-teach-quote-source">{{ q.source }}</p>{% endif %}
+            </blockquote>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+
+  {% if page.courses %}
+    <section class="ed-teach-section">
+      <h2>Courses I am prepared to teach</h2>
+      {% if page.courses_note %}<p class="ed-teach-kicker">{{ page.courses_note }}</p>{% endif %}
+      <div class="ed-teach-courses">
+        {% for c in page.courses %}
+          <div>
+            <h3>{{ c.title }}</h3>
+            <p>{{ c.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.training %}
+    <section class="ed-teach-section">
+      <h2>Training as an educator</h2>
+      {% for t in page.training %}
+        <div class="ed-teach-entry">
+          <span class="ed-teach-when">{{ t.when }}</span>
+          <div>
+            <p class="ed-teach-title">{{ t.title }}</p>
+            {% if t.where %}<p class="ed-teach-where">{{ t.where }}</p>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+</div>
