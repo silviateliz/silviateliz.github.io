@@ -41,7 +41,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-had-the-honor-of-teaching-a-guest-lecture-on-bias-in-ai-systems-to-an-amazing-group-of-400-undergraduate-students-at-stony-brook-university",
           title: 'I had the honor of teaching a guest lecture on bias in AI...',
           description: "",
-          section: "News",},{id: "projects-mechanisms-of-social-bias-in-large-language-models-disentangling-linguistic-framing-from-group-specification",
+          section: "News",},{id: "projects-visual-cues-as-political-communication-a-computational-look-into-mexican-federal-electoral-campaigns",
+          title: 'Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns...',
+          description: "How skin tone and other visual cues in political advertising influence electoral outcomes in Mexico.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dissertation/";
+            },},{id: "projects-mechanisms-of-social-bias-in-large-language-models-disentangling-linguistic-framing-from-group-specification",
           title: 'Mechanisms of Social Bias in Large Language Models: Disentangling Linguistic Framing from Group...',
           description: "An investigation of whether social bias in large language models is driven by the linguistic framing of a prompt or by the explicit specification of a social group.",
           section: "Projects",handler: () => {
