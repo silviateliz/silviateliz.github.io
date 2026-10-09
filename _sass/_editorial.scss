@@ -1,0 +1,615 @@
+/*******************************************************************************
+ * Editorial — restyle for al-folio.
+ * Serif (Newsreader), black ink on white, yellow highlighter for emphasis.
+ * Drop-in: "editorial" is the LAST entry of the @import list in
+ * assets/css/main.scss. To go back to the previous look, swap it for "paper".
+ ******************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap");
+
+:root {
+  /* Editorial tokens */
+  --ed-bg: #ffffff;
+  --ed-surface: #f6f6f4;
+  --ed-ink: #111111; /* headings, links, strong rules */
+  --ed-text: #222222; /* body copy */
+  --ed-muted: #5c5c5c; /* secondary text (7:1 on white) */
+  --ed-rule: #111111; /* section rules */
+  --ed-hair: #e3e3e0; /* row dividers */
+  --ed-mark: #eef25a; /* highlighter */
+
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  color-scheme: light;
+  --global-bg-color: var(--ed-bg);
+  --global-code-bg-color: var(--ed-surface);
+  --global-text-color: var(--ed-text);
+  --global-text-color-light: var(--ed-muted);
+  --global-theme-color: var(--ed-ink);
+  --global-hover-color: var(--ed-ink);
+  --global-hover-text-color: var(--ed-bg);
+  --global-footer-bg-color: var(--ed-bg);
+  --global-footer-text-color: var(--ed-muted);
+  --global-footer-link-color: var(--ed-ink);
+  --global-distill-app-color: var(--ed-muted);
+  --global-divider-color: var(--ed-hair);
+  --global-card-bg-color: var(--ed-bg);
+  --global-highlight-color: var(--ed-ink);
+  --global-back-to-top-bg-color: rgba(17, 17, 17, 0.35);
+  --global-back-to-top-text-color: var(--ed-bg);
+  --global-newsletter-bg-color: var(--ed-bg);
+  --global-newsletter-text-color: var(--ed-ink);
+}
+
+/* ---------- Dark ---------- */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --ed-bg: #121212;
+  --ed-surface: #1c1c1c;
+  --ed-ink: #efeee9;
+  --ed-text: #dcdbd5;
+  --ed-muted: #a3a29c;
+  --ed-rule: #efeee9;
+  --ed-hair: #2c2c2c;
+  --ed-mark: rgba(238, 242, 90, 0.32);
+
+  --global-bg-color: var(--ed-bg);
+  --global-code-bg-color: var(--ed-surface);
+  --global-text-color: var(--ed-text);
+  --global-text-color-light: var(--ed-muted);
+  --global-theme-color: var(--ed-ink);
+  --global-hover-color: var(--ed-ink);
+  --global-hover-text-color: var(--ed-bg);
+  --global-footer-bg-color: var(--ed-bg);
+  --global-footer-text-color: var(--ed-muted);
+  --global-footer-link-color: var(--ed-ink);
+  --global-divider-color: var(--ed-hair);
+  --global-card-bg-color: var(--ed-bg);
+  --global-highlight-color: var(--ed-ink);
+  --global-back-to-top-bg-color: rgba(239, 238, 233, 0.28);
+  --global-back-to-top-text-color: var(--ed-bg);
+  --global-newsletter-bg-color: var(--ed-surface);
+  --global-newsletter-text-color: var(--ed-ink);
+}
+
+/* ---------- Type ---------- */
+
+body {
+  background: var(--ed-bg);
+  color: var(--ed-text);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.card-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--ed-ink);
+}
+
+.post-header {
+  margin-bottom: 2.5rem;
+
+  .post-title {
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-weight: 300;
+    line-height: 1.08;
+  }
+}
+
+.post-header .desc,
+.post-description,
+.ed-label {
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ed-muted);
+}
+
+/* Section headings inside articles */
+article h2,
+.post h2 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: 2.6rem;
+}
+
+em,
+i:not([class]) {
+  font-style: italic;
+}
+
+/* Highlighter: <em class="mark">two to four words</em> */
+.mark,
+mark {
+  background: linear-gradient(transparent 60%, var(--ed-mark) 60%);
+  color: inherit;
+  padding: 0 0.06em;
+}
+
+/* ---------- Links ---------- */
+
+a,
+a:visited {
+  color: var(--ed-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ed-hair);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 120ms ease;
+
+  &:hover {
+    color: var(--ed-ink);
+    text-decoration-color: var(--ed-ink);
+  }
+}
+
+html[data-theme="dark"] a {
+  text-decoration-color: #4a4a4a;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ed-ink);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #eef25a;
+  color: #111111;
+}
+
+/* ---------- Header / nav ---------- */
+
+.navbar {
+  background: var(--ed-bg) !important;
+  border-bottom: 1px solid var(--ed-hair);
+  box-shadow: none !important;
+  opacity: 1;
+}
+
+.navbar-brand,
+.navbar-brand.title {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ed-ink) !important;
+  text-decoration: none;
+
+  .font-weight-bold {
+    font-weight: 400 !important;
+  }
+}
+
+.navbar .nav-item .nav-link {
+  font-family: var(--font-serif);
+  font-size: 0.74rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ed-muted) !important;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--ed-ink) !important;
+  }
+}
+
+.navbar .nav-item.active .nav-link {
+  color: var(--ed-ink) !important;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: var(--ed-ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.5em;
+  background: none;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: var(--ed-ink);
+}
+
+.dropdown-menu {
+  background: var(--ed-bg);
+  border: 1px solid var(--ed-hair);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* ---------- Homepage (layout: about) ---------- */
+
+.ed-home {
+  padding-top: 1rem;
+
+  .ed-intro {
+    margin: 2.5rem 0 4rem;
+    max-width: 62rem;
+    font-size: clamp(1.6rem, 3.4vw, 2.6rem);
+    font-weight: 300;
+    line-height: 1.24;
+    letter-spacing: -0.012em;
+    color: var(--ed-ink);
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      text-decoration-color: var(--ed-muted);
+    }
+  }
+
+  .ed-rule {
+    border: 0;
+    border-top: 1px solid var(--ed-rule);
+    margin: 0;
+  }
+
+  .ed-profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 3rem;
+    padding-top: 2.5rem;
+  }
+
+  .ed-photo {
+    flex: 1 1 220px;
+    max-width: 280px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1.08;
+      object-fit: cover;
+      object-position: 52% 35%;
+      filter: grayscale(1) contrast(1.08);
+      border-radius: 0;
+      box-shadow: none !important;
+    }
+  }
+
+  .ed-facts {
+    flex: 999 1 520px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2rem 1.75rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+
+    h2 {
+      margin: 0 0 0.9rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ed-ink);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    /* untitled items after a titled one (e.g. the list of links under "Elsewhere") sit closer together */
+    li:not(.ed-sub) ~ li.ed-sub {
+      margin-top: -0.55rem;
+    }
+
+    .ed-fact-title {
+      display: block;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ed-ink);
+    }
+
+    .ed-fact-detail {
+      display: block;
+      font-style: italic;
+      color: var(--ed-text);
+    }
+  }
+
+  .ed-section {
+    padding-top: 5rem;
+  }
+
+  .ed-section-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    border-bottom: 1px solid var(--ed-rule);
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.7rem, 3vw, 2.1rem);
+      font-weight: 400;
+    }
+
+    a {
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .ed-research {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 1.45rem;
+      line-height: 1.2;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: var(--ed-ink);
+        }
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--ed-muted);
+    }
+  }
+
+  .ed-news {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 2rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--ed-hair);
+    }
+
+    .ed-news-date {
+      flex: 0 0 7rem;
+      font-style: italic;
+      color: var(--ed-muted);
+    }
+
+    .ed-news-text {
+      flex: 1 1 24rem;
+      min-width: 0;
+    }
+  }
+}
+
+/* ---------- Profile (other layouts that still use it) ---------- */
+
+.profile img {
+  filter: grayscale(1) contrast(1.08);
+  border-radius: 0;
+  box-shadow: none !important;
+}
+
+/* ---------- News table (news page) ---------- */
+
+.news {
+  th {
+    font-weight: 400;
+    font-style: italic;
+    color: var(--ed-muted);
+    white-space: nowrap;
+    padding-top: 1rem;
+  }
+
+  td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--ed-hair);
+  }
+
+  @media (max-width: 600px) {
+    th,
+    td {
+      display: block;
+      width: auto !important;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    td {
+      padding-top: 0;
+    }
+  }
+}
+
+/* ---------- Cards (projects, CV) ---------- */
+
+.card,
+.card-item {
+  background: var(--ed-bg);
+  border: 0;
+  border-top: 1px solid var(--ed-rule);
+  border-radius: 0;
+  box-shadow: none !important;
+}
+
+.card.hoverable:hover {
+  box-shadow: none !important;
+}
+
+.projects {
+  .card-img-top {
+    border-radius: 0;
+    filter: grayscale(1);
+  }
+
+  .card-body {
+    padding: 1rem 0 0;
+  }
+
+  .card-title {
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
+
+  .card-text {
+    color: var(--ed-muted);
+    font-size: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.cv {
+  .card {
+    border: 0;
+    border-top: 1px solid var(--ed-rule);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .list-group-item {
+      background: transparent;
+      border-color: var(--ed-hair);
+
+      /* dates: italic text instead of filled pills */
+      .badge {
+        background: transparent !important;
+        color: var(--ed-muted) !important;
+        font-family: var(--font-serif);
+        font-weight: 400 !important;
+        font-style: italic;
+        font-size: 0.95rem;
+        text-transform: none !important;
+        text-align: left;
+        padding: 0;
+      }
+    }
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Buttons become quiet underlined labels */
+a.btn,
+a.btn-sm {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: var(--ed-ink) !important;
+  font-family: var(--font-serif);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  padding: 0.5rem 0;
+}
+
+/* ---------- Footer, code, quotes ---------- */
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  background: var(--ed-bg);
+  border-top: 1px solid var(--ed-hair);
+  color: var(--ed-muted);
+  font-size: 0.8rem;
+
+  a {
+    color: var(--ed-ink);
+  }
+}
+
+.social .contact-icons a i,
+.social .contact-icons i {
+  color: var(--ed-ink);
+}
+
+blockquote {
+  border-left: 1px solid var(--ed-rule);
+  background: transparent;
+  color: var(--ed-text);
+  font-style: italic;
+  padding-left: 1rem;
+}
+
+pre,
+code {
+  font-family: var(--font-mono);
+  background: var(--ed-surface);
+}
+
+hr {
+  border-top: 1px solid var(--ed-hair);
+}
+
+/* ---------- Phone hit targets ---------- */
+
+@media (max-width: 600px) {
+  body {
+    font-size: 17px;
+  }
+
+  .navbar .nav-item .nav-link {
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .ed-home .ed-facts a,
+  .ed-home .ed-section-head a,
+  footer a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

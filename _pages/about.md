@@ -2,28 +2,67 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD candidate at the <a href='https://www.asc.upenn.edu/people/graduate-student/silvia-teliz'>Annenberg School for Communication, University of Pennsylvania</a>.
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: 
+  alt: Portrait of Silvia Téliz
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# Columns beside the photo. Each item can have a title, a detail (shown in italics) and an optional url.
+facts:
+  - heading: Education
+    items:
+      - title: University of Pennsylvania
+        detail: PhD Communication, expected 2027
+      - title: University of Pennsylvania
+        detail: MA Communication, 2024
+      - title: Universidad Panamericana
+        detail: BA Communication, 2018
+  - heading: Affiliations
+    items:
+      - detail: Center for Information Networks and Democracy (CIND)
+        url: https://www.asc.upenn.edu/research/centers/center-for-information-networks-and-democracy
+      - detail: Politics, Identities, and Communication Lab (PICL)
+        url: https://www.asc.upenn.edu/research/centers/picl
+      - detail: Center for Advanced Research in Global Communication (CARGC)
+        url: https://www.asc.upenn.edu/cargc
+  - heading: Selected support
+    items:
+      - title: Annenberg Internal Grant
+        detail: "2026"
+      - title: SECIHTI Graduate Scholarship
+        detail: "2025"
+      - title: Fulbright–García Robles
+        detail: "2021"
+  - heading: Contact
+    items:
+      - title: Email
+        detail: silvia.teliz@asc.upenn.edu
+        url: mailto:silvia.teliz@asc.upenn.edu
+      - title: Elsewhere
+        detail: Google Scholar
+        url: https://scholar.google.com/citations?user=bEIbJF8AAAAJ
+      - detail: Bluesky
+        url: https://bsky.app/profile/steliz.bsky.social
+      - detail: GitHub
+        url: https://github.com/silviateliz
+      - detail: ORCID
+        url: https://orcid.org/0000-0002-8958-6372
+      - detail: LinkedIn
+        url: https://www.linkedin.com/in/silvia-teliz
+      - detail: CV (PDF) →
+        url: /assets/pdf/cv.pdf
+
+research:
+  enabled: true
+  heading: Current research
+  limit: 3 # projects from _projects/, ordered by `importance`
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  limit: 3 # most recent items from _news/
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-I use computational social science methods to study visual political communication and social biases in multimodal AI systems. At the Annenberg school, I am affiliated with the Center for Information Networks and Democracy (<a href='https://www.asc.upenn.edu/research/centers/center-for-information-networks-and-democracy'>CIND</a>), and the Politics, Identities, and Communication Lab (<a href='https://www.asc.upenn.edu/research/centers/picl'>PICL</a>). 
- 
-I was born and raised in Mexico City, where I obtained a B.A. degree in Communication from Universidad Panamericana. After graduating college in 2018, I collaborated in numerous research consulting projects, mainly on gender and transparency issues. I worked in evaluating public policy programs for Mexican institutions such as the National Institute for Information Access and the National Judiciary. In 2021, I became a Fulbright-García Robles grantee.
+Silvia Téliz is a <em class="mark">computational social scientist</em> and PhD candidate at the [Annenberg School for Communication](https://www.asc.upenn.edu/people/graduate-student/silvia-teliz), University of Pennsylvania. Drawing on computer vision and <em class="mark">multimodal AI</em>, she studies how political images represent social identity in Latin America — and the social biases that machines learn when they look at people.

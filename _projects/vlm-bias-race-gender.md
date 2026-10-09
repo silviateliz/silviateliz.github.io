@@ -4,6 +4,7 @@ title: Identifying Biases in VLMs' Zero-Shot Classifications of Race and Gender
 description: An audit framework comparing how vision-language models label race and gender in face images against annotations from a demographically balanced sample of U.S. adults.
 img: assets/img/projects/vlm-bias-thumb.svg
 importance: 1
+label: Vision-language models
 category: research
 related_publications: false
 ---
