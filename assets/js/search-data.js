@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -40,6 +47,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-had-the-honor-of-teaching-a-guest-lecture-on-bias-in-ai-systems-to-an-amazing-group-of-400-undergraduate-students-at-stony-brook-university",
           title: 'I had the honor of teaching a guest lecture on bias in AI...',
+          description: "",
+          section: "News",},{id: "news-skin-tone-as-a-visual-cue-in-political-campaigns-evidence-from-elections-in-mexico-co-authored-with-my-advisor-sandra-gonzález-bailón-is-out-now-in-the-the-international-journal-of-press-politics-you-can-read-the-open-access-article-here",
+          title: '“Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in...',
           description: "",
           section: "News",},{id: "projects-visual-cues-as-political-communication-a-computational-look-into-mexican-federal-electoral-campaigns",
           title: 'Visual Cues as Political Communication: A Computational Look into Mexican Federal Electoral Campaigns...',
