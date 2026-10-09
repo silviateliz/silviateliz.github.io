@@ -1,146 +1,163 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
+{% comment %}
+  Editorial CV. Renders assets/json/resume.json (site.data.resume) with one
+  consistent entry format. Sections appear in the order listed under
+  `jsonresume:` in _config.yml; empty sections are skipped.
+{% endcomment %}
+{% assign r = site.data.resume %}
+{% assign me = r.basics.name %}
+{% assign me_bold = '<strong>' | append: me | append: '</strong>' %}
 
-    <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% else %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+<div class="post ed-cv">
+  <header class="post-header ed-cv-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="ed-cv-contact">
+      {% if r.basics.location.city %}
+        <span>{{ r.basics.location.city }}{% if r.basics.location.region %}, {{ r.basics.location.region }}{% endif %}</span>
       {% endif %}
-    </header>
-
-    <article>
-      <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
+      {% if r.basics.email and r.basics.email != '' %}
+        <a href="mailto:{{ r.basics.email }}">{{ r.basics.email }}</a>
+      {% endif %}
+      {% for profile in r.basics.profiles %}
+        <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network }}</a>
+      {% endfor %}
+      {% if page.cv_pdf %}
+        <a
+          class="ed-cv-pdf"
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
           {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">
-              {% case data[0] %}
-                {% when 'basics' %}
-                  Summary
-                {% when 'skills' %}
-                  Technical Skills and Methodologies
-                {% when 'work' %}
-                  Relevant Experience
-                {% when 'awards' %}
-                  Honors and Awards
-                {% when 'memberships' %}
-                  Scholarly Memberships and Service
-                {% else %}
-                  {{ data[0] | capitalize }}
-              {% endcase %}
-            </h3>
-            <div>
-              {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'presentations' %}
-                  {% include resume/presentations.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'memberships' %}
-                  {% include resume/memberships.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
+          target="_blank"
+          rel="noopener noreferrer"
+          >Download PDF ↓</a
+        >
+      {% endif %}
+    </p>
+  </header>
 
-              {% endcase %}
-            </div>
+  <article class="cv">
+    {% for key in site.jsonresume %}
+      {% assign items = r[key] %}
+      {% if key == 'basics' %}
+        {% if r.basics.summary and r.basics.summary != '' %}
+          <p class="ed-cv-summary">{{ r.basics.summary }}</p>
+        {% endif %}
+        {% continue %}
+      {% endif %}
+      {% if items == nil or items.size == 0 %}{% continue %}{% endif %}
+
+      {% case key %}
+        {% when 'work' %}{% assign heading = 'Experience' %}
+        {% when 'awards' %}{% assign heading = 'Honors and awards' %}
+        {% when 'skills' %}{% assign heading = 'Skills and languages' %}
+        {% when 'memberships' %}{% assign heading = 'Service and memberships' %}
+        {% else %}{% assign heading = key | capitalize %}
+      {% endcase %}
+
+      <section class="ed-cv-section" id="{{ key }}">
+        <h2>{{ heading }}</h2>
+
+        {% if key == 'skills' %}
+          <div class="ed-cv-skills">
+            {% for group in items %}
+              <div>
+                <h3>{{ group.name }}</h3>
+                <p>{{ group.keywords | join: ', ' }}</p>
+              </div>
+            {% endfor %}
           </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% endunless %}
+          {% continue %}
+        {% endif %}
+
+        {% case key %}
+          {% when 'education' %}{% assign sorted = items | sort: 'endDate' | reverse %}
+          {% when 'work' or 'memberships' %}{% assign sorted = items | sort: 'startDate' | reverse %}
+          {% when 'publications' or 'presentations' %}{% assign sorted = items | sort: 'releaseDate' | reverse %}
+          {% when 'awards' or 'certificates' %}{% assign sorted = items | sort: 'date' | reverse %}
+          {% else %}{% assign sorted = items %}
+        {% endcase %}
+
+        <ul class="ed-cv-list">
+          {% for e in sorted %}
+            {% comment %} ---- years ---- {% endcomment %}
+            {% assign start = e.startDate | default: '' | slice: 0, 4 %}
+            {% if e.endDate == 'present' %}
+              {% assign finish = 'Present' %}
+            {% else %}
+              {% assign finish = e.endDate | default: '' | slice: 0, 4 %}
+            {% endif %}
+            {% assign single = e.releaseDate | default: e.date | default: '' | slice: 0, 4 %}
+            {% if start != '' and finish != '' and start != finish %}
+              {% assign years = start | append: ' – ' | append: finish %}
+            {% elsif finish != '' %}
+              {% assign years = finish %}
+            {% else %}
+              {% assign years = single %}
+            {% endif %}
+
+            {% comment %} ---- fields per section ---- {% endcomment %}
+            {% assign title = '' %}{% assign sub = '' %}{% assign note = '' %}
+            {% case key %}
+              {% when 'education' %}
+                {% assign title = e.studyType | append: ', ' | append: e.area %}
+                {% assign sub = e.institution %}
+                {% if e.location %}{% assign sub = sub | append: ' · ' | append: e.location %}{% endif %}
+                {% assign note = e.summary %}
+              {% when 'work' %}
+                {% assign title = e.position %}
+                {% assign sub = e.name %}
+                {% if e.summary and e.summary != '' %}{% assign sub = sub | append: ' · ' | append: e.summary %}{% endif %}
+              {% when 'publications' %}
+                {% assign title = e.name %}
+                {% assign sub = e.authors | replace: me, me_bold %}
+                {% assign note = e.publisher %}
+              {% when 'presentations' %}
+                {% assign title = e.name %}
+                {% assign sub = e.authors | replace: me, me_bold %}
+                {% assign note = e.venue %}
+                {% if e.type %}{% assign note = e.type | append: ' · ' | append: e.venue %}{% endif %}
+              {% when 'awards' %}
+                {% assign title = e.title %}
+                {% assign sub = e.awarder %}
+                {% assign note = e.summary %}
+              {% when 'certificates' %}
+                {% assign title = e.name %}
+                {% assign sub = e.issuer %}
+              {% when 'memberships' %}
+                {% assign title = e.name %}
+                {% assign sub = e.position %}
+                {% assign note = e.location %}
+              {% else %}
+                {% assign title = e.name | default: e.title %}
+                {% assign sub = e.summary %}
+            {% endcase %}
+
+            <li class="ed-cv-entry">
+              <span class="ed-cv-years">{{ years }}</span>
+              <div class="ed-cv-body">
+                <p class="ed-cv-title">
+                  {% if e.url and e.url != '' %}
+                    <a href="{{ e.url }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
+                  {% else %}
+                    {{ title }}
+                  {% endif %}
+                </p>
+                {% if sub and sub != '' %}<p class="ed-cv-sub">{{ sub }}</p>{% endif %}
+                {% if note and note != '' %}<p class="ed-cv-note">{{ note }}</p>{% endif %}
+                {% if e.highlights and e.highlights.size > 0 %}
+                  <ul class="ed-cv-points">
+                    {% for h in e.highlights %}<li>{{ h }}</li>{% endfor %}
+                  </ul>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  </article>
+</div>

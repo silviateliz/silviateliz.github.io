@@ -634,17 +634,17 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
+jsonresume: # sections shown on the CV page, in this order
   - basics
   - education
-  - skills
-  - work
   - publications
   - presentations
-  - projects
-  - volunteer
+  - work
   - awards
   - certificates
   - memberships
+  - projects
+  - volunteer
   - interests
   - references
+  - skills
