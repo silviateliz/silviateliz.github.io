@@ -14,15 +14,9 @@ mission: >-
 principles:
   - title: Principle 1 · Student-centered learning
     text: >-
-      Designing courses around students’ needs, prioritizing their well-being and access. In my first
-      methods course I asked students when they last took a statistics class, how they felt about numbers,
-      and what they hoped to do with their degree; their answers shaped the semester. I have opened every
-      course since with some version of those questions.
-  - title: Principle 2 · Culturally responsive teaching
+      Designing courses around students’ needs, prioritizing their well-being and access. 
     text: >-
-      Building diverse cultural perspectives into the curriculum. In my recitation at Penn I drew on news
-      stories and case studies from outside the United States, and I lectured on racial representations in
-      children’s media.
+      Building diverse cultural perspectives into the curriculum. 
 
 experience:
   - when: Sep 2026

@@ -23,8 +23,6 @@ facts:
         url: https://www.asc.upenn.edu/research/centers/center-for-information-networks-and-democracy
       - detail: Politics, Identities, and Communication Lab (PICL)
         url: https://www.asc.upenn.edu/research/centers/picl
-      - detail: Center for Advanced Research in Global Communication (CARGC)
-        url: https://www.asc.upenn.edu/cargc
   - heading: Contact
     items:
       - title: Email
