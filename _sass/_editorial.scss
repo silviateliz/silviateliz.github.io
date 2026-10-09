@@ -251,8 +251,26 @@ html[data-theme="dark"] a {
       margin: 0;
     }
 
+    /* Links in the intro: no underline, a small arrow instead */
     a {
-      text-decoration-color: var(--ed-muted);
+      text-decoration: none;
+
+      &::after {
+        content: "\2197"; /* ↗ */
+        display: inline-block;
+        margin-left: 0.08em;
+        font-size: 0.5em;
+        vertical-align: 0.9em;
+        line-height: 0;
+        color: var(--ed-muted);
+        transition: color 120ms ease, transform 120ms ease;
+      }
+
+      &:hover::after,
+      &:focus-visible::after {
+        color: var(--ed-ink);
+        transform: translate(0.08em, -0.08em);
+      }
     }
   }
 
