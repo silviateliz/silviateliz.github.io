@@ -25,14 +25,6 @@ facts:
         url: https://www.asc.upenn.edu/research/centers/picl
       - detail: Center for Advanced Research in Global Communication (CARGC)
         url: https://www.asc.upenn.edu/cargc
-  - heading: Selected support
-    items:
-      - title: Annenberg Internal Grant
-        detail: "2026"
-      - title: SECIHTI Graduate Scholarship
-        detail: "2025"
-      - title: Fulbright–García Robles
-        detail: "2021"
   - heading: Contact
     items:
       - title: Email
@@ -65,4 +57,4 @@ latest_posts:
   enabled: false
 ---
 
-Silvia Téliz is a <em class="mark">computational social scientist</em> and PhD candidate at the [Annenberg School for Communication](https://www.asc.upenn.edu/people/graduate-student/silvia-teliz), University of Pennsylvania. Drawing on computer vision and <em class="mark">multimodal AI</em>, she studies how political images represent social identity in Latin America — and the social biases that machines learn when they look at people.
+I am a <em class="mark">computational social scientist</em> and PhD candidate at the [Annenberg School for Communication](https://www.asc.upenn.edu/people/graduate-student/silvia-teliz), University of Pennsylvania. Drawing on computer vision and multimodal AI, I study how political images represent social identity, and how social biases are embedded in the technology we use to analyze visual data.
