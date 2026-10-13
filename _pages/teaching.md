@@ -44,18 +44,18 @@ materials:
     github:
     syllabus:
 
-stats:
-  - value: 91%
-    label: rated the overall quality of my instruction very good or excellent
-    source: COMM 1250, Spring 2026
-  - value: "3.56"
-    unit: / 4
-    label: for accessibility outside of class, against a course average of 3.34
-    source: COMM 1250, Spring 2026
-  - value: "4.71"
-    unit: / 5
-    label: for responsiveness to students’ emails
-    source: COMM 2250, Fall 2024
+#stats:
+ # - value: 91%
+ #   label: rated the overall quality of my instruction very good or excellent
+ #   source: COMM 1250, Spring 2026
+ # - value: "3.56"
+ #   unit: / 4
+ #   label: for accessibility outside of class, against a course average of 3.34
+ #   source: COMM 1250, Spring 2026
+ # - value: "4.71"
+ #   unit: / 5
+ #   label: for responsiveness to students’ emails
+ #   source: COMM 2250, Fall 2024
 
 quotes:
   - text: >-
