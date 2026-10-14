@@ -42,6 +42,10 @@ facts:
       - detail: CV (PDF) →
         url: /assets/pdf/cv.pdf
 
+featured_publications:
+  enabled: true
+  heading: Featured publications # shows publications marked "featured": true in assets/json/resume.json
+
 research:
   enabled: true
   heading: Current research

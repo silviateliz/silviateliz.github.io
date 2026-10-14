@@ -5,6 +5,7 @@ layout: default
   Editorial homepage. Content lives in _pages/about.md:
   - the page body is the large intro statement
   - front matter `facts:` fills the columns beside the photo
+  - `featured_publications:` lists publications marked "featured": true in assets/json/resume.json
   - `research:` controls the "Current research" section (pulls from _projects)
   - `announcements:` controls the "Recently" list (pulls from _news)
 {% endcomment %}
@@ -50,6 +51,38 @@ layout: default
       </div>
     {% endif %}
   </section>
+
+  {% if page.featured_publications and page.featured_publications.enabled %}
+    {% assign me = site.data.resume.basics.name %}
+    {% assign me_bold = '<strong>' | append: me | append: '</strong>' %}
+    {% assign featured = site.data.resume.publications | where: 'featured', true | sort: 'releaseDate' | reverse %}
+    {% if featured.size > 0 %}
+      <section class="ed-section">
+        <div class="ed-section-head">
+          <h2>{{ page.featured_publications.heading | default: 'Featured publications' }}</h2>
+          <a href="{{ '/cv/#publications' | relative_url }}">All publications →</a>
+        </div>
+        <ul class="ed-pubs">
+          {% for pub in featured %}
+            <li>
+              <span class="ed-pubs-year">{{ pub.releaseDate | slice: 0, 4 }}</span>
+              <div>
+                <p class="ed-pubs-title">
+                  {% if pub.url and pub.url != '' %}
+                    <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.name }}</a>
+                  {% else %}
+                    {{ pub.name }}
+                  {% endif %}
+                </p>
+                <p class="ed-pubs-authors">{{ pub.authors | replace: me, me_bold }}</p>
+                <p class="ed-pubs-venue">{{ pub.publisher }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% endif %}
 
   {% if page.research and page.research.enabled %}
     {% assign sorted_projects = site.projects | sort: 'importance' %}
